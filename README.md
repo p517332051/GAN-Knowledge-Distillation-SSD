@@ -20,7 +20,7 @@ fig 1为我们算法模型的整体结构，我们首先使用一个容量更大
 
 ##### Training Process
 
-模型训练主要分为两个阶段，第一阶段的训练过程主要是使用对抗生成网络(GAN)的训练方式，首先是训练D Net模块中每个判别网络去辨别输入的sample是true sample 还是fake sample，并且frozen teacher net 和student net的weights，然后是训练student net生成fake sample去欺骗D Net模块中每个判别网络，并且同时对student net和 SSD-Head进行正常的SSD训。在训练过程中frozen teacher net 和D Net模块中每个判别网络的weights，如下面的公式。
+如下面的公式。
 
 ![seq1](seq1.jpg)
 

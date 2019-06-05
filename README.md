@@ -50,5 +50,5 @@ Table 2. 使用COCO train 2017作为训练集，COCO val 2017作为测试集。
 
 
 
-以上就是本方法的的结果报告，现在正在假如cosine attention机制目前在voc上所有的模型都可以提提升接近1个mAP，目前正在coco上实验。
+以上就是本方法的的结果报告，现在正在加入cosine attention机制目前在voc上所有的模型都可以提提升接近1个mAP，目前正在coco上实验。
 

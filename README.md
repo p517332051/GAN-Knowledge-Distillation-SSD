@@ -34,7 +34,7 @@ fig 1为我们算法模型的整体结构，我们首先使用一个容量更大
 
 | Student net | Teacher net                                                  | Pascal Voc 2007 test                         |
 | :---------- | :----------------------------------------------------------- | -------------------------------------------- |
-| MobilenetV1 | -<br />VGG16<br />ResNet50<br />ResNet101<br />ResNet50(with coins attention) | 75.4<br />77.3<br />77.7<br />77.6<br />78.4 |
+| MobilenetV1 | -<br />VGG16<br />ResNet50<br />ResNet101<br />ResNet50(with cosine attention) | 75.4<br />77.3<br />77.7<br />77.6<br />78.4 |
 | MobilenetV2 | -<br />VGG16<br />ResNet50<br />ResNet101<br />              | 75.9<br />77.2<br />77.7<br />77.5<br />     |
 | ResNet18    | -<br />VGG16<br />ResNet50<br />ResNet101<br />              | 74.8<br />77.2<br />77.6<br />77.3<br />     |
 

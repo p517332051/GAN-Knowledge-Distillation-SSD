@@ -1,6 +1,8 @@
 ### GAN-Knowledge Distillation for One-Stage Object Detection
 
-​                                                                      疯狂三角肌  
+​                                                                        HongWei
+
+​                                                               517332051@qq.com
 
 ​                                                                    StartDt AI Lab  
 

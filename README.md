@@ -30,7 +30,7 @@ fig 1为我们算法模型的整体结构，我们首先使用一个容量更大
 
 ##### Results
 
-我们的脚本工具为gluoncv，和mxnet。训练机器为4个1080ti。将原生的SSD和在不同的Teacher net下知识蒸馏的SSD做比较，最高可以提升student net 2.8mAP。不过有趣的是，当teacher net为ResNet101，student net为ResNet18时，提升的效果反而不如ResNet50。后面发现在gluoncv上ssd_ResNet101,发现其效果在voc上的mAP只有79+，而ssd_ResNet50mAP达到80+。由于COCO数据集实在庞大，由于硬件资源有限训练一个模型需要一周时间，所以只用ResNet50作为Teacher Net(如果有的小伙伴有更多的硬件资源，可以尝试使用SSD+FPN作为Teacher Net，也可以将本方法迁移到Faster RCNN等一切端到端的深度学习方法上进行测试，相信会有意想不到的结果。～_～训练了好几个月才这些结果)。
+我们的脚本工具为gluoncv，和mxnet。训练机器目前已经有4个1080ti。将原生的SSD和在不同的Teacher net下知识蒸馏的SSD做比较，最高可以提升student net 2.8mAP。不过有趣的是，当teacher net为ResNet101，student net为ResNet18时，提升的效果反而不如ResNet50。后面发现在gluoncv上ssd_ResNet101,发现其效果在voc上的mAP只有79+，而ssd_ResNet50mAP达到80+。由于COCO数据集实在庞大，由于硬件资源有限训练一个模型需要一周时间，所以只用ResNet50作为Teacher Net(如果有的小伙伴有更多的硬件资源，可以尝试使用SSD+FPN作为Teacher Net，也可以将本方法迁移到Faster RCNN等一切端到端的深度学习方法上进行测试，相信会有意想不到的结果。～_～训练了好几个月才这些结果)。
 
 | Student net | Teacher net                                                  | Pascal Voc 2007 test                         |
 | :---------- | :----------------------------------------------------------- | -------------------------------------------- |

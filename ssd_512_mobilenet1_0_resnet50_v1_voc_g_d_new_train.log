@@ -1,0 +1,574 @@
+Namespace(batch_size=64, beta1=0.5, clamp_lower=-0.03, clamp_upper=0.03, data_shape=512, dataset='voc', epochs=340, gpus='4,5,6,7', log_interval=100, lr=0.001, lrD=0.0005, lrG=0.0005, lr_decay=0.1, lr_decay_epoch='80,100', momentum=0.9, network='vgg16_atrous', num_workers=16, resume='', save_interval=10, save_prefix='ssd_512_mobilenet1_0_resnet50_v1_voc_g_d_new', seed=233, start_epoch=1, val_interval=1, wd=0.0005)
+Start training from [Epoch 1]
+[Epoch 1][Batch 99], Speed: 32.788 samples/sec,Loss_D=-13.622. Loss_G=3.784.  Loss_D_real=-10.771. Loss_D_fake=2.851. train_student_ori_net_CrossEntropy=6.191. train_student_ori_net_SmoothL1=2.686. cosine_length_loss_metric=0.643.
+Namespace(batch_size=64, beta1=0.5, clamp_lower=-0.03, clamp_upper=0.03, data_shape=512, dataset='voc', epochs=340, gpus='4,5,6,7', log_interval=100, lr=0.001, lrD=0.0005, lrG=0.0005, lr_decay=0.1, lr_decay_epoch='80,100', momentum=0.9, network='vgg16_atrous', num_workers=32, resume='', save_interval=10, save_prefix='ssd_512_mobilenet1_0_resnet50_v1_voc_g_d_new', seed=233, start_epoch=1, val_interval=1, wd=0.0005)
+Start training from [Epoch 1]
+[Epoch 1][Batch 99], Speed: 35.872 samples/sec,Loss_D=-13.583. Loss_G=3.534.  Loss_D_real=-11.073. Loss_D_fake=2.509. train_student_ori_net_CrossEntropy=6.051. train_student_ori_net_SmoothL1=2.727. cosine_length_loss_metric=0.637.
+[Epoch 1][Batch 199], Speed: 36.237 samples/sec,Loss_D=-14.077. Loss_G=3.396.  Loss_D_real=-11.591. Loss_D_fake=2.486. train_student_ori_net_CrossEntropy=5.213. train_student_ori_net_SmoothL1=2.449. cosine_length_loss_metric=0.619.
+[Epoch 2][Batch 99], Speed: 33.069 samples/sec,Loss_D=-12.751. Loss_G=3.006.  Loss_D_real=-10.218. Loss_D_fake=2.534. train_student_ori_net_CrossEntropy=3.924. train_student_ori_net_SmoothL1=1.988. cosine_length_loss_metric=0.567.
+[Epoch 2][Batch 199], Speed: 33.629 samples/sec,Loss_D=-12.178. Loss_G=2.491.  Loss_D_real=-10.350. Loss_D_fake=1.829. train_student_ori_net_CrossEntropy=3.873. train_student_ori_net_SmoothL1=1.942. cosine_length_loss_metric=0.563.
+[Epoch 3][Batch 99], Speed: 33.130 samples/sec,Loss_D=-10.222. Loss_G=1.235.  Loss_D_real=-9.276. Loss_D_fake=0.946. train_student_ori_net_CrossEntropy=3.581. train_student_ori_net_SmoothL1=1.779. cosine_length_loss_metric=0.536.
+[Epoch 3][Batch 199], Speed: 35.055 samples/sec,Loss_D=-9.997. Loss_G=1.306.  Loss_D_real=-9.162. Loss_D_fake=0.835. train_student_ori_net_CrossEntropy=3.531. train_student_ori_net_SmoothL1=1.793. cosine_length_loss_metric=0.533.
+[Epoch 4][Batch 99], Speed: 33.720 samples/sec,Loss_D=-7.382. Loss_G=0.110.  Loss_D_real=-7.545. Loss_D_fake=-0.163. train_student_ori_net_CrossEntropy=3.478. train_student_ori_net_SmoothL1=1.730. cosine_length_loss_metric=0.523.
+[Epoch 4][Batch 199], Speed: 35.369 samples/sec,Loss_D=-7.358. Loss_G=0.537.  Loss_D_real=-7.381. Loss_D_fake=-0.023. train_student_ori_net_CrossEntropy=3.460. train_student_ori_net_SmoothL1=1.737. cosine_length_loss_metric=0.522.
+[Epoch 5][Batch 99], Speed: 36.677 samples/sec,Loss_D=-6.458. Loss_G=0.609.  Loss_D_real=-7.108. Loss_D_fake=-0.651. train_student_ori_net_CrossEntropy=3.387. train_student_ori_net_SmoothL1=1.708. cosine_length_loss_metric=0.504.
+[Epoch 5][Batch 199], Speed: 37.495 samples/sec,Loss_D=-6.289. Loss_G=0.103.  Loss_D_real=-7.302. Loss_D_fake=-1.013. train_student_ori_net_CrossEntropy=3.368. train_student_ori_net_SmoothL1=1.718. cosine_length_loss_metric=0.501.
+[Epoch 6][Batch 99], Speed: 36.073 samples/sec,Loss_D=-5.721. Loss_G=-0.437.  Loss_D_real=-6.794. Loss_D_fake=-1.074. train_student_ori_net_CrossEntropy=3.320. train_student_ori_net_SmoothL1=1.667. cosine_length_loss_metric=0.504.
+[Epoch 6][Batch 199], Speed: 34.345 samples/sec,Loss_D=-5.815. Loss_G=-0.359.  Loss_D_real=-6.866. Loss_D_fake=-1.051. train_student_ori_net_CrossEntropy=3.294. train_student_ori_net_SmoothL1=1.654. cosine_length_loss_metric=0.501.
+[Epoch 7][Batch 99], Speed: 32.499 samples/sec,Loss_D=-5.133. Loss_G=0.162.  Loss_D_real=-5.669. Loss_D_fake=-0.537. train_student_ori_net_CrossEntropy=3.279. train_student_ori_net_SmoothL1=1.688. cosine_length_loss_metric=0.487.
+[Epoch 7][Batch 199], Speed: 37.243 samples/sec,Loss_D=-4.951. Loss_G=-0.602.  Loss_D_real=-6.234. Loss_D_fake=-1.284. train_student_ori_net_CrossEntropy=3.236. train_student_ori_net_SmoothL1=1.664. cosine_length_loss_metric=0.490.
+[Epoch 8][Batch 99], Speed: 36.629 samples/sec,Loss_D=-3.901. Loss_G=-1.893.  Loss_D_real=-6.325. Loss_D_fake=-2.424. train_student_ori_net_CrossEntropy=3.170. train_student_ori_net_SmoothL1=1.581. cosine_length_loss_metric=0.482.
+[Epoch 8][Batch 199], Speed: 33.983 samples/sec,Loss_D=-3.632. Loss_G=-1.874.  Loss_D_real=-6.166. Loss_D_fake=-2.534. train_student_ori_net_CrossEntropy=3.154. train_student_ori_net_SmoothL1=1.578. cosine_length_loss_metric=0.484.
+[Epoch 9][Batch 99], Speed: 35.188 samples/sec,Loss_D=-4.955. Loss_G=-0.077.  Loss_D_real=-5.357. Loss_D_fake=-0.402. train_student_ori_net_CrossEntropy=3.121. train_student_ori_net_SmoothL1=1.607. cosine_length_loss_metric=0.494.
+[Epoch 9][Batch 199], Speed: 37.744 samples/sec,Loss_D=-4.875. Loss_G=-0.003.  Loss_D_real=-5.264. Loss_D_fake=-0.389. train_student_ori_net_CrossEntropy=3.126. train_student_ori_net_SmoothL1=1.585. cosine_length_loss_metric=0.486.
+[Epoch 10][Batch 99], Speed: 37.048 samples/sec,Loss_D=-4.188. Loss_G=-0.695.  Loss_D_real=-5.552. Loss_D_fake=-1.364. train_student_ori_net_CrossEntropy=3.053. train_student_ori_net_SmoothL1=1.521. cosine_length_loss_metric=0.467.
+[Epoch 10][Batch 199], Speed: 33.134 samples/sec,Loss_D=-3.897. Loss_G=-0.729.  Loss_D_real=-5.107. Loss_D_fake=-1.210. train_student_ori_net_CrossEntropy=3.060. train_student_ori_net_SmoothL1=1.528. cosine_length_loss_metric=0.471.
+[Epoch 11][Batch 99], Speed: 36.339 samples/sec,Loss_D=-3.141. Loss_G=-1.223.  Loss_D_real=-4.526. Loss_D_fake=-1.385. train_student_ori_net_CrossEntropy=3.055. train_student_ori_net_SmoothL1=1.559. cosine_length_loss_metric=0.475.
+[Epoch 11][Batch 199], Speed: 37.162 samples/sec,Loss_D=-2.883. Loss_G=-1.554.  Loss_D_real=-4.626. Loss_D_fake=-1.742. train_student_ori_net_CrossEntropy=3.058. train_student_ori_net_SmoothL1=1.536. cosine_length_loss_metric=0.472.
+[Epoch 12][Batch 99], Speed: 33.798 samples/sec,Loss_D=-2.810. Loss_G=-0.111.  Loss_D_real=-3.455. Loss_D_fake=-0.645. train_student_ori_net_CrossEntropy=2.964. train_student_ori_net_SmoothL1=1.482. cosine_length_loss_metric=0.463.
+[Epoch 12][Batch 199], Speed: 33.167 samples/sec,Loss_D=-2.746. Loss_G=-0.375.  Loss_D_real=-3.720. Loss_D_fake=-0.974. train_student_ori_net_CrossEntropy=2.968. train_student_ori_net_SmoothL1=1.491. cosine_length_loss_metric=0.464.
+[Epoch 13][Batch 99], Speed: 36.944 samples/sec,Loss_D=-2.359. Loss_G=-1.812.  Loss_D_real=-4.540. Loss_D_fake=-2.181. train_student_ori_net_CrossEntropy=2.959. train_student_ori_net_SmoothL1=1.497. cosine_length_loss_metric=0.455.
+[Epoch 13][Batch 199], Speed: 32.566 samples/sec,Loss_D=-2.098. Loss_G=-2.467.  Loss_D_real=-4.737. Loss_D_fake=-2.640. train_student_ori_net_CrossEntropy=2.963. train_student_ori_net_SmoothL1=1.485. cosine_length_loss_metric=0.458.
+[Epoch 14][Batch 99], Speed: 33.259 samples/sec,Loss_D=-3.507. Loss_G=-0.754.  Loss_D_real=-4.523. Loss_D_fake=-1.016. train_student_ori_net_CrossEntropy=2.926. train_student_ori_net_SmoothL1=1.437. cosine_length_loss_metric=0.459.
+[Epoch 14][Batch 199], Speed: 37.342 samples/sec,Loss_D=-3.278. Loss_G=-1.287.  Loss_D_real=-4.893. Loss_D_fake=-1.615. train_student_ori_net_CrossEntropy=2.901. train_student_ori_net_SmoothL1=1.446. cosine_length_loss_metric=0.460.
+[Epoch 15][Batch 99], Speed: 31.485 samples/sec,Loss_D=-2.082. Loss_G=-1.191.  Loss_D_real=-3.631. Loss_D_fake=-1.549. train_student_ori_net_CrossEntropy=2.888. train_student_ori_net_SmoothL1=1.436. cosine_length_loss_metric=0.443.
+[Epoch 15][Batch 199], Speed: 35.139 samples/sec,Loss_D=-1.898. Loss_G=-1.518.  Loss_D_real=-3.813. Loss_D_fake=-1.915. train_student_ori_net_CrossEntropy=2.908. train_student_ori_net_SmoothL1=1.433. cosine_length_loss_metric=0.446.
+[Epoch 16][Batch 99], Speed: 32.528 samples/sec,Loss_D=-2.621. Loss_G=-0.075.  Loss_D_real=-3.180. Loss_D_fake=-0.559. train_student_ori_net_CrossEntropy=2.865. train_student_ori_net_SmoothL1=1.393. cosine_length_loss_metric=0.446.
+[Epoch 16][Batch 199], Speed: 35.191 samples/sec,Loss_D=-2.456. Loss_G=-0.230.  Loss_D_real=-3.179. Loss_D_fake=-0.723. train_student_ori_net_CrossEntropy=2.868. train_student_ori_net_SmoothL1=1.411. cosine_length_loss_metric=0.445.
+[Epoch 17][Batch 99], Speed: 32.860 samples/sec,Loss_D=-1.005. Loss_G=-2.837.  Loss_D_real=-4.042. Loss_D_fake=-3.036. train_student_ori_net_CrossEntropy=2.829. train_student_ori_net_SmoothL1=1.401. cosine_length_loss_metric=0.436.
+[Epoch 17][Batch 199], Speed: 33.239 samples/sec,Loss_D=-1.004. Loss_G=-2.932.  Loss_D_real=-4.078. Loss_D_fake=-3.074. train_student_ori_net_CrossEntropy=2.833. train_student_ori_net_SmoothL1=1.404. cosine_length_loss_metric=0.439.
+[Epoch 18][Batch 99], Speed: 36.634 samples/sec,Loss_D=-0.639. Loss_G=-3.326.  Loss_D_real=-4.158. Loss_D_fake=-3.519. train_student_ori_net_CrossEntropy=2.800. train_student_ori_net_SmoothL1=1.355. cosine_length_loss_metric=0.435.
+[Epoch 18][Batch 199], Speed: 36.328 samples/sec,Loss_D=-0.656. Loss_G=-3.316.  Loss_D_real=-4.139. Loss_D_fake=-3.484. train_student_ori_net_CrossEntropy=2.807. train_student_ori_net_SmoothL1=1.370. cosine_length_loss_metric=0.432.
+[Epoch 19][Batch 99], Speed: 33.731 samples/sec,Loss_D=-0.324. Loss_G=-3.521.  Loss_D_real=-3.951. Loss_D_fake=-3.627. train_student_ori_net_CrossEntropy=2.761. train_student_ori_net_SmoothL1=1.355. cosine_length_loss_metric=0.431.
+[Epoch 19][Batch 199], Speed: 37.064 samples/sec,Loss_D=-0.348. Loss_G=-3.564.  Loss_D_real=-4.042. Loss_D_fake=-3.694. train_student_ori_net_CrossEntropy=2.768. train_student_ori_net_SmoothL1=1.368. cosine_length_loss_metric=0.428.
+[Epoch 20][Batch 99], Speed: 33.215 samples/sec,Loss_D=-0.302. Loss_G=-3.481.  Loss_D_real=-3.802. Loss_D_fake=-3.500. train_student_ori_net_CrossEntropy=2.781. train_student_ori_net_SmoothL1=1.383. cosine_length_loss_metric=0.430.
+[Epoch 20][Batch 199], Speed: 32.268 samples/sec,Loss_D=-0.334. Loss_G=-3.523.  Loss_D_real=-3.899. Loss_D_fake=-3.566. train_student_ori_net_CrossEntropy=2.770. train_student_ori_net_SmoothL1=1.366. cosine_length_loss_metric=0.430.
+[Epoch 21][Batch 99], Speed: 32.886 samples/sec,Loss_D=-0.311. Loss_G=-3.616.  Loss_D_real=-3.999. Loss_D_fake=-3.688. train_student_ori_net_CrossEntropy=2.723. train_student_ori_net_SmoothL1=1.330. cosine_length_loss_metric=0.425.
+[Epoch 21][Batch 199], Speed: 37.441 samples/sec,Loss_D=-0.293. Loss_G=-3.483.  Loss_D_real=-3.845. Loss_D_fake=-3.552. train_student_ori_net_CrossEntropy=2.724. train_student_ori_net_SmoothL1=1.354. cosine_length_loss_metric=0.422.
+[Epoch 22][Batch 99], Speed: 36.542 samples/sec,Loss_D=-0.226. Loss_G=-3.562.  Loss_D_real=-3.889. Loss_D_fake=-3.664. train_student_ori_net_CrossEntropy=2.679. train_student_ori_net_SmoothL1=1.314. cosine_length_loss_metric=0.416.
+[Epoch 22][Batch 199], Speed: 32.729 samples/sec,Loss_D=-0.178. Loss_G=-3.381.  Loss_D_real=-3.633. Loss_D_fake=-3.454. train_student_ori_net_CrossEntropy=2.703. train_student_ori_net_SmoothL1=1.317. cosine_length_loss_metric=0.419.
+[Epoch 23][Batch 99], Speed: 32.715 samples/sec,Loss_D=-0.066. Loss_G=-2.620.  Loss_D_real=-2.700. Loss_D_fake=-2.634. train_student_ori_net_CrossEntropy=2.649. train_student_ori_net_SmoothL1=1.262. cosine_length_loss_metric=0.412.
+[Epoch 23][Batch 199], Speed: 32.709 samples/sec,Loss_D=-0.066. Loss_G=-2.590.  Loss_D_real=-2.669. Loss_D_fake=-2.604. train_student_ori_net_CrossEntropy=2.674. train_student_ori_net_SmoothL1=1.319. cosine_length_loss_metric=0.414.
+[Epoch 24][Batch 99], Speed: 32.703 samples/sec,Loss_D=-0.061. Loss_G=-2.428.  Loss_D_real=-2.505. Loss_D_fake=-2.444. train_student_ori_net_CrossEntropy=2.663. train_student_ori_net_SmoothL1=1.365. cosine_length_loss_metric=0.415.
+[Epoch 24][Batch 199], Speed: 37.047 samples/sec,Loss_D=-0.060. Loss_G=-2.379.  Loss_D_real=-2.454. Loss_D_fake=-2.393. train_student_ori_net_CrossEntropy=2.660. train_student_ori_net_SmoothL1=1.334. cosine_length_loss_metric=0.421.
+[Epoch 25][Batch 99], Speed: 37.010 samples/sec,Loss_D=-0.057. Loss_G=-2.351.  Loss_D_real=-2.411. Loss_D_fake=-2.354. train_student_ori_net_CrossEntropy=2.655. train_student_ori_net_SmoothL1=1.299. cosine_length_loss_metric=0.413.
+[Epoch 25][Batch 199], Speed: 36.284 samples/sec,Loss_D=-0.058. Loss_G=-2.317.  Loss_D_real=-2.379. Loss_D_fake=-2.321. train_student_ori_net_CrossEntropy=2.656. train_student_ori_net_SmoothL1=1.297. cosine_length_loss_metric=0.416.
+[Epoch 26][Batch 99], Speed: 32.853 samples/sec,Loss_D=-0.060. Loss_G=-2.257.  Loss_D_real=-2.326. Loss_D_fake=-2.265. train_student_ori_net_CrossEntropy=2.650. train_student_ori_net_SmoothL1=1.334. cosine_length_loss_metric=0.426.
+[Epoch 26][Batch 199], Speed: 37.473 samples/sec,Loss_D=-0.059. Loss_G=-2.297.  Loss_D_real=-2.367. Loss_D_fake=-2.308. train_student_ori_net_CrossEntropy=2.640. train_student_ori_net_SmoothL1=1.319. cosine_length_loss_metric=0.421.
+[Epoch 27][Batch 99], Speed: 33.501 samples/sec,Loss_D=-0.054. Loss_G=-2.284.  Loss_D_real=-2.350. Loss_D_fake=-2.296. train_student_ori_net_CrossEntropy=2.595. train_student_ori_net_SmoothL1=1.275. cosine_length_loss_metric=0.404.
+[Epoch 27][Batch 199], Speed: 34.527 samples/sec,Loss_D=-0.055. Loss_G=-2.310.  Loss_D_real=-2.374. Loss_D_fake=-2.319. train_student_ori_net_CrossEntropy=2.619. train_student_ori_net_SmoothL1=1.286. cosine_length_loss_metric=0.404.
+[Epoch 28][Batch 99], Speed: 33.716 samples/sec,Loss_D=-0.054. Loss_G=-2.221.  Loss_D_real=-2.287. Loss_D_fake=-2.233. train_student_ori_net_CrossEntropy=2.607. train_student_ori_net_SmoothL1=1.274. cosine_length_loss_metric=0.405.
+[Epoch 28][Batch 199], Speed: 36.951 samples/sec,Loss_D=-0.053. Loss_G=-2.202.  Loss_D_real=-2.269. Loss_D_fake=-2.216. train_student_ori_net_CrossEntropy=2.597. train_student_ori_net_SmoothL1=1.292. cosine_length_loss_metric=0.408.
+[Epoch 29][Batch 99], Speed: 35.004 samples/sec,Loss_D=-0.046. Loss_G=-2.138.  Loss_D_real=-2.195. Loss_D_fake=-2.149. train_student_ori_net_CrossEntropy=2.581. train_student_ori_net_SmoothL1=1.284. cosine_length_loss_metric=0.405.
+[Epoch 29][Batch 199], Speed: 32.695 samples/sec,Loss_D=-0.045. Loss_G=-2.265.  Loss_D_real=-2.317. Loss_D_fake=-2.272. train_student_ori_net_CrossEntropy=2.603. train_student_ori_net_SmoothL1=1.274. cosine_length_loss_metric=0.403.
+[Epoch 30][Batch 99], Speed: 35.052 samples/sec,Loss_D=-0.043. Loss_G=-2.610.  Loss_D_real=-2.657. Loss_D_fake=-2.614. train_student_ori_net_CrossEntropy=2.580. train_student_ori_net_SmoothL1=1.253. cosine_length_loss_metric=0.399.
+[Epoch 30][Batch 199], Speed: 32.999 samples/sec,Loss_D=-0.044. Loss_G=-2.552.  Loss_D_real=-2.601. Loss_D_fake=-2.558. train_student_ori_net_CrossEntropy=2.570. train_student_ori_net_SmoothL1=1.263. cosine_length_loss_metric=0.398.
+[Epoch 31][Batch 99], Speed: 31.844 samples/sec,Loss_D=-0.045. Loss_G=-2.504.  Loss_D_real=-2.555. Loss_D_fake=-2.510. train_student_ori_net_CrossEntropy=2.554. train_student_ori_net_SmoothL1=1.264. cosine_length_loss_metric=0.398.
+[Epoch 31][Batch 199], Speed: 37.486 samples/sec,Loss_D=-0.045. Loss_G=-2.426.  Loss_D_real=-2.477. Loss_D_fake=-2.432. train_student_ori_net_CrossEntropy=2.568. train_student_ori_net_SmoothL1=1.267. cosine_length_loss_metric=0.395.
+[Epoch 32][Batch 99], Speed: 32.803 samples/sec,Loss_D=-0.045. Loss_G=-2.256.  Loss_D_real=-2.315. Loss_D_fake=-2.271. train_student_ori_net_CrossEntropy=2.566. train_student_ori_net_SmoothL1=1.247. cosine_length_loss_metric=0.388.
+[Epoch 32][Batch 199], Speed: 37.202 samples/sec,Loss_D=-0.045. Loss_G=-2.225.  Loss_D_real=-2.281. Loss_D_fake=-2.236. train_student_ori_net_CrossEntropy=2.552. train_student_ori_net_SmoothL1=1.255. cosine_length_loss_metric=0.391.
+[Epoch 33][Batch 99], Speed: 32.399 samples/sec,Loss_D=-0.045. Loss_G=-1.864.  Loss_D_real=-1.919. Loss_D_fake=-1.874. train_student_ori_net_CrossEntropy=2.537. train_student_ori_net_SmoothL1=1.230. cosine_length_loss_metric=0.395.
+[Epoch 33][Batch 199], Speed: 37.612 samples/sec,Loss_D=-0.045. Loss_G=-1.822.  Loss_D_real=-1.874. Loss_D_fake=-1.829. train_student_ori_net_CrossEntropy=2.558. train_student_ori_net_SmoothL1=1.233. cosine_length_loss_metric=0.392.
+[Epoch 34][Batch 99], Speed: 34.128 samples/sec,Loss_D=-0.047. Loss_G=-1.674.  Loss_D_real=-1.731. Loss_D_fake=-1.683. train_student_ori_net_CrossEntropy=2.533. train_student_ori_net_SmoothL1=1.214. cosine_length_loss_metric=0.394.
+[Epoch 34][Batch 199], Speed: 35.584 samples/sec,Loss_D=-0.048. Loss_G=-1.685.  Loss_D_real=-1.740. Loss_D_fake=-1.692. train_student_ori_net_CrossEntropy=2.527. train_student_ori_net_SmoothL1=1.222. cosine_length_loss_metric=0.398.
+[Epoch 35][Batch 99], Speed: 32.965 samples/sec,Loss_D=-0.047. Loss_G=-1.796.  Loss_D_real=-1.858. Loss_D_fake=-1.811. train_student_ori_net_CrossEntropy=2.580. train_student_ori_net_SmoothL1=1.246. cosine_length_loss_metric=0.397.
+[Epoch 35][Batch 199], Speed: 36.939 samples/sec,Loss_D=-0.049. Loss_G=-1.852.  Loss_D_real=-1.909. Loss_D_fake=-1.861. train_student_ori_net_CrossEntropy=2.551. train_student_ori_net_SmoothL1=1.250. cosine_length_loss_metric=0.396.
+[Epoch 36][Batch 99], Speed: 36.641 samples/sec,Loss_D=-0.048. Loss_G=-1.867.  Loss_D_real=-1.927. Loss_D_fake=-1.879. train_student_ori_net_CrossEntropy=2.546. train_student_ori_net_SmoothL1=1.237. cosine_length_loss_metric=0.388.
+[Epoch 36][Batch 199], Speed: 35.711 samples/sec,Loss_D=-0.047. Loss_G=-1.866.  Loss_D_real=-1.927. Loss_D_fake=-1.879. train_student_ori_net_CrossEntropy=2.544. train_student_ori_net_SmoothL1=1.250. cosine_length_loss_metric=0.387.
+[Epoch 37][Batch 99], Speed: 32.387 samples/sec,Loss_D=-0.046. Loss_G=-2.013.  Loss_D_real=-2.063. Loss_D_fake=-2.017. train_student_ori_net_CrossEntropy=2.485. train_student_ori_net_SmoothL1=1.233. cosine_length_loss_metric=0.385.
+[Epoch 37][Batch 199], Speed: 33.458 samples/sec,Loss_D=-0.044. Loss_G=-1.962.  Loss_D_real=-2.006. Loss_D_fake=-1.962. train_student_ori_net_CrossEntropy=2.486. train_student_ori_net_SmoothL1=1.227. cosine_length_loss_metric=0.386.
+[Epoch 38][Batch 99], Speed: 32.416 samples/sec,Loss_D=-0.043. Loss_G=-1.949.  Loss_D_real=-1.998. Loss_D_fake=-1.955. train_student_ori_net_CrossEntropy=2.489. train_student_ori_net_SmoothL1=1.210. cosine_length_loss_metric=0.381.
+[Epoch 38][Batch 199], Speed: 35.370 samples/sec,Loss_D=-0.043. Loss_G=-2.000.  Loss_D_real=-2.046. Loss_D_fake=-2.003. train_student_ori_net_CrossEntropy=2.489. train_student_ori_net_SmoothL1=1.202. cosine_length_loss_metric=0.383.
+[Epoch 39][Batch 99], Speed: 33.118 samples/sec,Loss_D=-0.041. Loss_G=-2.127.  Loss_D_real=-2.177. Loss_D_fake=-2.136. train_student_ori_net_CrossEntropy=2.525. train_student_ori_net_SmoothL1=1.249. cosine_length_loss_metric=0.390.
+[Epoch 39][Batch 199], Speed: 34.579 samples/sec,Loss_D=-0.042. Loss_G=-2.229.  Loss_D_real=-2.280. Loss_D_fake=-2.238. train_student_ori_net_CrossEntropy=2.518. train_student_ori_net_SmoothL1=1.230. cosine_length_loss_metric=0.389.
+[Epoch 40][Batch 99], Speed: 31.750 samples/sec,Loss_D=-0.043. Loss_G=-2.302.  Loss_D_real=-2.358. Loss_D_fake=-2.315. train_student_ori_net_CrossEntropy=2.474. train_student_ori_net_SmoothL1=1.195. cosine_length_loss_metric=0.381.
+[Epoch 40][Batch 199], Speed: 35.799 samples/sec,Loss_D=-0.043. Loss_G=-2.357.  Loss_D_real=-2.406. Loss_D_fake=-2.363. train_student_ori_net_CrossEntropy=2.466. train_student_ori_net_SmoothL1=1.209. cosine_length_loss_metric=0.382.
+[Epoch 41][Batch 99], Speed: 32.042 samples/sec,Loss_D=-0.044. Loss_G=-2.804.  Loss_D_real=-2.849. Loss_D_fake=-2.805. train_student_ori_net_CrossEntropy=2.488. train_student_ori_net_SmoothL1=1.235. cosine_length_loss_metric=0.382.
+[Epoch 41][Batch 199], Speed: 34.834 samples/sec,Loss_D=-0.044. Loss_G=-2.873.  Loss_D_real=-2.918. Loss_D_fake=-2.874. train_student_ori_net_CrossEntropy=2.491. train_student_ori_net_SmoothL1=1.233. cosine_length_loss_metric=0.384.
+[Epoch 42][Batch 99], Speed: 33.312 samples/sec,Loss_D=-0.047. Loss_G=-3.301.  Loss_D_real=-3.356. Loss_D_fake=-3.308. train_student_ori_net_CrossEntropy=2.484. train_student_ori_net_SmoothL1=1.190. cosine_length_loss_metric=0.388.
+[Epoch 42][Batch 199], Speed: 32.635 samples/sec,Loss_D=-0.046. Loss_G=-3.391.  Loss_D_real=-3.442. Loss_D_fake=-3.396. train_student_ori_net_CrossEntropy=2.492. train_student_ori_net_SmoothL1=1.197. cosine_length_loss_metric=0.387.
+[Epoch 43][Batch 99], Speed: 32.775 samples/sec,Loss_D=-0.043. Loss_G=-3.691.  Loss_D_real=-3.736. Loss_D_fake=-3.693. train_student_ori_net_CrossEntropy=2.469. train_student_ori_net_SmoothL1=1.197. cosine_length_loss_metric=0.383.
+[Epoch 43][Batch 199], Speed: 37.274 samples/sec,Loss_D=-0.043. Loss_G=-3.779.  Loss_D_real=-3.824. Loss_D_fake=-3.781. train_student_ori_net_CrossEntropy=2.474. train_student_ori_net_SmoothL1=1.200. cosine_length_loss_metric=0.384.
+[Epoch 44][Batch 99], Speed: 32.574 samples/sec,Loss_D=-0.042. Loss_G=-3.921.  Loss_D_real=-3.979. Loss_D_fake=-3.937. train_student_ori_net_CrossEntropy=2.489. train_student_ori_net_SmoothL1=1.204. cosine_length_loss_metric=0.377.
+[Epoch 44][Batch 199], Speed: 33.277 samples/sec,Loss_D=-0.043. Loss_G=-3.966.  Loss_D_real=-4.020. Loss_D_fake=-3.977. train_student_ori_net_CrossEntropy=2.473. train_student_ori_net_SmoothL1=1.195. cosine_length_loss_metric=0.379.
+[Epoch 45][Batch 99], Speed: 33.437 samples/sec,Loss_D=-0.039. Loss_G=-4.032.  Loss_D_real=-4.076. Loss_D_fake=-4.037. train_student_ori_net_CrossEntropy=2.437. train_student_ori_net_SmoothL1=1.189. cosine_length_loss_metric=0.373.
+[Epoch 45][Batch 199], Speed: 34.793 samples/sec,Loss_D=-0.039. Loss_G=-4.048.  Loss_D_real=-4.096. Loss_D_fake=-4.057. train_student_ori_net_CrossEntropy=2.441. train_student_ori_net_SmoothL1=1.174. cosine_length_loss_metric=0.379.
+[Epoch 46][Batch 99], Speed: 32.301 samples/sec,Loss_D=-0.039. Loss_G=-4.114.  Loss_D_real=-4.163. Loss_D_fake=-4.124. train_student_ori_net_CrossEntropy=2.410. train_student_ori_net_SmoothL1=1.181. cosine_length_loss_metric=0.379.
+[Epoch 46][Batch 199], Speed: 34.318 samples/sec,Loss_D=-0.041. Loss_G=-4.079.  Loss_D_real=-4.132. Loss_D_fake=-4.091. train_student_ori_net_CrossEntropy=2.420. train_student_ori_net_SmoothL1=1.177. cosine_length_loss_metric=0.379.
+[Epoch 47][Batch 99], Speed: 32.497 samples/sec,Loss_D=-0.043. Loss_G=-3.979.  Loss_D_real=-4.028. Loss_D_fake=-3.985. train_student_ori_net_CrossEntropy=2.419. train_student_ori_net_SmoothL1=1.145. cosine_length_loss_metric=0.387.
+[Epoch 47][Batch 199], Speed: 37.751 samples/sec,Loss_D=-0.042. Loss_G=-3.975.  Loss_D_real=-4.026. Loss_D_fake=-3.983. train_student_ori_net_CrossEntropy=2.425. train_student_ori_net_SmoothL1=1.172. cosine_length_loss_metric=0.384.
+[Epoch 48][Batch 99], Speed: 32.669 samples/sec,Loss_D=-0.039. Loss_G=-4.264.  Loss_D_real=-4.300. Loss_D_fake=-4.262. train_student_ori_net_CrossEntropy=2.453. train_student_ori_net_SmoothL1=1.168. cosine_length_loss_metric=0.376.
+[Epoch 48][Batch 199], Speed: 33.205 samples/sec,Loss_D=-0.039. Loss_G=-4.307.  Loss_D_real=-4.346. Loss_D_fake=-4.307. train_student_ori_net_CrossEntropy=2.434. train_student_ori_net_SmoothL1=1.177. cosine_length_loss_metric=0.376.
+[Epoch 49][Batch 99], Speed: 32.090 samples/sec,Loss_D=-0.038. Loss_G=-4.275.  Loss_D_real=-4.320. Loss_D_fake=-4.282. train_student_ori_net_CrossEntropy=2.363. train_student_ori_net_SmoothL1=1.131. cosine_length_loss_metric=0.375.
+[Epoch 49][Batch 199], Speed: 33.791 samples/sec,Loss_D=-0.038. Loss_G=-4.262.  Loss_D_real=-4.310. Loss_D_fake=-4.272. train_student_ori_net_CrossEntropy=2.408. train_student_ori_net_SmoothL1=1.154. cosine_length_loss_metric=0.378.
+[Epoch 50][Batch 99], Speed: 31.550 samples/sec,Loss_D=-0.039. Loss_G=-4.248.  Loss_D_real=-4.296. Loss_D_fake=-4.257. train_student_ori_net_CrossEntropy=2.404. train_student_ori_net_SmoothL1=1.138. cosine_length_loss_metric=0.378.
+[Epoch 50][Batch 199], Speed: 32.600 samples/sec,Loss_D=-0.039. Loss_G=-4.214.  Loss_D_real=-4.260. Loss_D_fake=-4.222. train_student_ori_net_CrossEntropy=2.403. train_student_ori_net_SmoothL1=1.184. cosine_length_loss_metric=0.377.
+[Epoch 51][Batch 99], Speed: 31.576 samples/sec,Loss_D=-0.037. Loss_G=-4.009.  Loss_D_real=-4.053. Loss_D_fake=-4.016. train_student_ori_net_CrossEntropy=2.390. train_student_ori_net_SmoothL1=1.211. cosine_length_loss_metric=0.378.
+[Epoch 51][Batch 199], Speed: 33.403 samples/sec,Loss_D=-0.037. Loss_G=-3.958.  Loss_D_real=-4.002. Loss_D_fake=-3.966. train_student_ori_net_CrossEntropy=2.405. train_student_ori_net_SmoothL1=1.191. cosine_length_loss_metric=0.378.
+[Epoch 52][Batch 99], Speed: 36.144 samples/sec,Loss_D=-0.038. Loss_G=-3.842.  Loss_D_real=-3.890. Loss_D_fake=-3.852. train_student_ori_net_CrossEntropy=2.401. train_student_ori_net_SmoothL1=1.157. cosine_length_loss_metric=0.376.
+[Epoch 52][Batch 199], Speed: 33.973 samples/sec,Loss_D=-0.039. Loss_G=-3.842.  Loss_D_real=-3.892. Loss_D_fake=-3.853. train_student_ori_net_CrossEntropy=2.396. train_student_ori_net_SmoothL1=1.148. cosine_length_loss_metric=0.375.
+[Epoch 53][Batch 99], Speed: 31.844 samples/sec,Loss_D=-0.040. Loss_G=-3.678.  Loss_D_real=-3.721. Loss_D_fake=-3.682. train_student_ori_net_CrossEntropy=2.369. train_student_ori_net_SmoothL1=1.150. cosine_length_loss_metric=0.379.
+[Epoch 53][Batch 199], Speed: 37.577 samples/sec,Loss_D=-0.040. Loss_G=-3.661.  Loss_D_real=-3.704. Loss_D_fake=-3.664. train_student_ori_net_CrossEntropy=2.378. train_student_ori_net_SmoothL1=1.132. cosine_length_loss_metric=0.377.
+[Epoch 54][Batch 99], Speed: 32.584 samples/sec,Loss_D=-0.041. Loss_G=-3.562.  Loss_D_real=-3.613. Loss_D_fake=-3.572. train_student_ori_net_CrossEntropy=2.356. train_student_ori_net_SmoothL1=1.094. cosine_length_loss_metric=0.374.
+[Epoch 54][Batch 199], Speed: 37.096 samples/sec,Loss_D=-0.041. Loss_G=-3.518.  Loss_D_real=-3.564. Loss_D_fake=-3.523. train_student_ori_net_CrossEntropy=2.368. train_student_ori_net_SmoothL1=1.118. cosine_length_loss_metric=0.376.
+[Epoch 55][Batch 99], Speed: 34.744 samples/sec,Loss_D=-0.041. Loss_G=-3.567.  Loss_D_real=-3.613. Loss_D_fake=-3.572. train_student_ori_net_CrossEntropy=2.366. train_student_ori_net_SmoothL1=1.124. cosine_length_loss_metric=0.375.
+[Epoch 55][Batch 199], Speed: 37.001 samples/sec,Loss_D=-0.042. Loss_G=-3.529.  Loss_D_real=-3.577. Loss_D_fake=-3.535. train_student_ori_net_CrossEntropy=2.371. train_student_ori_net_SmoothL1=1.152. cosine_length_loss_metric=0.376.
+[Epoch 56][Batch 99], Speed: 30.481 samples/sec,Loss_D=-0.044. Loss_G=-3.450.  Loss_D_real=-3.506. Loss_D_fake=-3.461. train_student_ori_net_CrossEntropy=2.358. train_student_ori_net_SmoothL1=1.188. cosine_length_loss_metric=0.369.
+[Epoch 56][Batch 199], Speed: 34.682 samples/sec,Loss_D=-0.044. Loss_G=-3.476.  Loss_D_real=-3.528. Loss_D_fake=-3.484. train_student_ori_net_CrossEntropy=2.365. train_student_ori_net_SmoothL1=1.165. cosine_length_loss_metric=0.368.
+[Epoch 57][Batch 99], Speed: 33.032 samples/sec,Loss_D=-0.045. Loss_G=-3.687.  Loss_D_real=-3.727. Loss_D_fake=-3.682. train_student_ori_net_CrossEntropy=2.343. train_student_ori_net_SmoothL1=1.131. cosine_length_loss_metric=0.366.
+[Epoch 57][Batch 199], Speed: 34.014 samples/sec,Loss_D=-0.045. Loss_G=-3.726.  Loss_D_real=-3.770. Loss_D_fake=-3.724. train_student_ori_net_CrossEntropy=2.342. train_student_ori_net_SmoothL1=1.123. cosine_length_loss_metric=0.369.
+[Epoch 58][Batch 99], Speed: 31.959 samples/sec,Loss_D=-0.046. Loss_G=-3.763.  Loss_D_real=-3.815. Loss_D_fake=-3.769. train_student_ori_net_CrossEntropy=2.344. train_student_ori_net_SmoothL1=1.116. cosine_length_loss_metric=0.371.
+[Epoch 58][Batch 199], Speed: 34.320 samples/sec,Loss_D=-0.046. Loss_G=-3.673.  Loss_D_real=-3.725. Loss_D_fake=-3.679. train_student_ori_net_CrossEntropy=2.340. train_student_ori_net_SmoothL1=1.115. cosine_length_loss_metric=0.369.
+[Epoch 59][Batch 99], Speed: 36.302 samples/sec,Loss_D=-0.046. Loss_G=-3.532.  Loss_D_real=-3.589. Loss_D_fake=-3.543. train_student_ori_net_CrossEntropy=2.323. train_student_ori_net_SmoothL1=1.094. cosine_length_loss_metric=0.369.
+[Epoch 59][Batch 199], Speed: 35.082 samples/sec,Loss_D=-0.046. Loss_G=-3.564.  Loss_D_real=-3.620. Loss_D_fake=-3.574. train_student_ori_net_CrossEntropy=2.335. train_student_ori_net_SmoothL1=1.104. cosine_length_loss_metric=0.368.
+[Epoch 60][Batch 99], Speed: 36.896 samples/sec,Loss_D=-0.040. Loss_G=-3.646.  Loss_D_real=-3.695. Loss_D_fake=-3.655. train_student_ori_net_CrossEntropy=2.318. train_student_ori_net_SmoothL1=1.116. cosine_length_loss_metric=0.369.
+[Epoch 60][Batch 199], Speed: 37.981 samples/sec,Loss_D=-0.039. Loss_G=-3.591.  Loss_D_real=-3.640. Loss_D_fake=-3.601. train_student_ori_net_CrossEntropy=2.335. train_student_ori_net_SmoothL1=1.110. cosine_length_loss_metric=0.366.
+[Epoch 61][Batch 99], Speed: 33.161 samples/sec,Loss_D=-0.044. Loss_G=-3.488.  Loss_D_real=-3.541. Loss_D_fake=-3.497. train_student_ori_net_CrossEntropy=2.509. train_student_ori_net_SmoothL1=1.204. cosine_length_loss_metric=0.367.
+[Epoch 61][Batch 199], Speed: 38.029 samples/sec,Loss_D=-0.045. Loss_G=-3.447.  Loss_D_real=-3.499. Loss_D_fake=-3.455. train_student_ori_net_CrossEntropy=2.506. train_student_ori_net_SmoothL1=1.213. cosine_length_loss_metric=0.371.
+[Epoch 62][Batch 99], Speed: 35.276 samples/sec,Loss_D=-0.042. Loss_G=-3.671.  Loss_D_real=-3.718. Loss_D_fake=-3.676. train_student_ori_net_CrossEntropy=2.432. train_student_ori_net_SmoothL1=1.160. cosine_length_loss_metric=0.377.
+[Epoch 62][Batch 199], Speed: 37.407 samples/sec,Loss_D=-0.042. Loss_G=-3.815.  Loss_D_real=-3.861. Loss_D_fake=-3.819. train_student_ori_net_CrossEntropy=2.439. train_student_ori_net_SmoothL1=1.166. cosine_length_loss_metric=0.376.
+[Epoch 63][Batch 99], Speed: 34.949 samples/sec,Loss_D=-0.043. Loss_G=-4.407.  Loss_D_real=-4.453. Loss_D_fake=-4.410. train_student_ori_net_CrossEntropy=2.394. train_student_ori_net_SmoothL1=1.176. cosine_length_loss_metric=0.369.
+[Epoch 63][Batch 199], Speed: 37.297 samples/sec,Loss_D=-0.044. Loss_G=-4.583.  Loss_D_real=-4.630. Loss_D_fake=-4.586. train_student_ori_net_CrossEntropy=2.409. train_student_ori_net_SmoothL1=1.175. cosine_length_loss_metric=0.370.
+[Epoch 64][Batch 99], Speed: 33.385 samples/sec,Loss_D=-0.044. Loss_G=-4.818.  Loss_D_real=-4.866. Loss_D_fake=-4.822. train_student_ori_net_CrossEntropy=2.362. train_student_ori_net_SmoothL1=1.142. cosine_length_loss_metric=0.370.
+[Epoch 64][Batch 199], Speed: 33.421 samples/sec,Loss_D=-0.044. Loss_G=-4.878.  Loss_D_real=-4.927. Loss_D_fake=-4.883. train_student_ori_net_CrossEntropy=2.362. train_student_ori_net_SmoothL1=1.140. cosine_length_loss_metric=0.371.
+[Epoch 65][Batch 99], Speed: 32.966 samples/sec,Loss_D=-0.041. Loss_G=-4.886.  Loss_D_real=-4.933. Loss_D_fake=-4.892. train_student_ori_net_CrossEntropy=2.332. train_student_ori_net_SmoothL1=1.121. cosine_length_loss_metric=0.374.
+[Epoch 65][Batch 199], Speed: 35.262 samples/sec,Loss_D=-0.042. Loss_G=-4.906.  Loss_D_real=-4.955. Loss_D_fake=-4.913. train_student_ori_net_CrossEntropy=2.354. train_student_ori_net_SmoothL1=1.142. cosine_length_loss_metric=0.376.
+[Epoch 66][Batch 99], Speed: 33.999 samples/sec,Loss_D=-0.040. Loss_G=-4.984.  Loss_D_real=-5.030. Loss_D_fake=-4.990. train_student_ori_net_CrossEntropy=2.285. train_student_ori_net_SmoothL1=1.103. cosine_length_loss_metric=0.372.
+[Epoch 66][Batch 199], Speed: 37.076 samples/sec,Loss_D=-0.040. Loss_G=-4.995.  Loss_D_real=-5.041. Loss_D_fake=-5.001. train_student_ori_net_CrossEntropy=2.316. train_student_ori_net_SmoothL1=1.113. cosine_length_loss_metric=0.376.
+[Epoch 67][Batch 99], Speed: 32.662 samples/sec,Loss_D=-0.042. Loss_G=-5.095.  Loss_D_real=-5.143. Loss_D_fake=-5.100. train_student_ori_net_CrossEntropy=2.270. train_student_ori_net_SmoothL1=1.092. cosine_length_loss_metric=0.373.
+[Epoch 67][Batch 199], Speed: 36.315 samples/sec,Loss_D=-0.041. Loss_G=-5.143.  Loss_D_real=-5.191. Loss_D_fake=-5.150. train_student_ori_net_CrossEntropy=2.300. train_student_ori_net_SmoothL1=1.110. cosine_length_loss_metric=0.375.
+[Epoch 68][Batch 99], Speed: 33.205 samples/sec,Loss_D=-0.037. Loss_G=-5.316.  Loss_D_real=-5.360. Loss_D_fake=-5.323. train_student_ori_net_CrossEntropy=2.262. train_student_ori_net_SmoothL1=1.114. cosine_length_loss_metric=0.380.
+[Epoch 68][Batch 199], Speed: 36.814 samples/sec,Loss_D=-0.045. Loss_G=-5.253.  Loss_D_real=-5.312. Loss_D_fake=-5.267. train_student_ori_net_CrossEntropy=2.278. train_student_ori_net_SmoothL1=1.106. cosine_length_loss_metric=0.376.
+[Epoch 69][Batch 99], Speed: 32.353 samples/sec,Loss_D=-0.127. Loss_G=-4.003.  Loss_D_real=-4.162. Loss_D_fake=-4.034. train_student_ori_net_CrossEntropy=2.285. train_student_ori_net_SmoothL1=1.100. cosine_length_loss_metric=0.367.
+[Epoch 69][Batch 199], Speed: 35.339 samples/sec,Loss_D=-0.121. Loss_G=-4.155.  Loss_D_real=-4.303. Loss_D_fake=-4.181. train_student_ori_net_CrossEntropy=2.285. train_student_ori_net_SmoothL1=1.094. cosine_length_loss_metric=0.371.
+[Epoch 70][Batch 99], Speed: 33.051 samples/sec,Loss_D=-0.184. Loss_G=-3.227.  Loss_D_real=-3.456. Loss_D_fake=-3.272. train_student_ori_net_CrossEntropy=2.268. train_student_ori_net_SmoothL1=1.091. cosine_length_loss_metric=0.374.
+[Epoch 70][Batch 199], Speed: 37.399 samples/sec,Loss_D=-0.200. Loss_G=-2.812.  Loss_D_real=-3.069. Loss_D_fake=-2.869. train_student_ori_net_CrossEntropy=2.275. train_student_ori_net_SmoothL1=1.095. cosine_length_loss_metric=0.372.
+[Epoch 71][Batch 99], Speed: 33.816 samples/sec,Loss_D=-0.209. Loss_G=-1.687.  Loss_D_real=-1.959. Loss_D_fake=-1.750. train_student_ori_net_CrossEntropy=2.272. train_student_ori_net_SmoothL1=1.092. cosine_length_loss_metric=0.373.
+[Epoch 71][Batch 199], Speed: 33.889 samples/sec,Loss_D=-0.197. Loss_G=-1.776.  Loss_D_real=-2.027. Loss_D_fake=-1.830. train_student_ori_net_CrossEntropy=2.273. train_student_ori_net_SmoothL1=1.101. cosine_length_loss_metric=0.376.
+[Epoch 72][Batch 99], Speed: 33.015 samples/sec,Loss_D=-0.342. Loss_G=-1.260.  Loss_D_real=-1.703. Loss_D_fake=-1.360. train_student_ori_net_CrossEntropy=2.335. train_student_ori_net_SmoothL1=1.133. cosine_length_loss_metric=0.391.
+[Epoch 72][Batch 199], Speed: 37.781 samples/sec,Loss_D=-0.308. Loss_G=-0.924.  Loss_D_real=-1.328. Loss_D_fake=-1.020. train_student_ori_net_CrossEntropy=2.310. train_student_ori_net_SmoothL1=1.120. cosine_length_loss_metric=0.387.
+[Epoch 73][Batch 99], Speed: 35.632 samples/sec,Loss_D=-0.304. Loss_G=-0.239.  Loss_D_real=-0.634. Loss_D_fake=-0.330. train_student_ori_net_CrossEntropy=2.264. train_student_ori_net_SmoothL1=1.068. cosine_length_loss_metric=0.377.
+[Epoch 73][Batch 199], Speed: 36.580 samples/sec,Loss_D=-0.323. Loss_G=-0.168.  Loss_D_real=-0.589. Loss_D_fake=-0.266. train_student_ori_net_CrossEntropy=2.272. train_student_ori_net_SmoothL1=1.090. cosine_length_loss_metric=0.379.
+[Epoch 74][Batch 99], Speed: 32.684 samples/sec,Loss_D=-0.385. Loss_G=0.195.  Loss_D_real=-0.304. Loss_D_fake=0.081. train_student_ori_net_CrossEntropy=2.318. train_student_ori_net_SmoothL1=1.126. cosine_length_loss_metric=0.374.
+[Epoch 74][Batch 199], Speed: 37.381 samples/sec,Loss_D=-0.495. Loss_G=0.125.  Loss_D_real=-0.476. Loss_D_fake=0.019. train_student_ori_net_CrossEntropy=2.315. train_student_ori_net_SmoothL1=1.116. cosine_length_loss_metric=0.379.
+[Epoch 75][Batch 99], Speed: 37.065 samples/sec,Loss_D=-0.649. Loss_G=0.048.  Loss_D_real=-0.713. Loss_D_fake=-0.063. train_student_ori_net_CrossEntropy=2.227. train_student_ori_net_SmoothL1=1.064. cosine_length_loss_metric=0.375.
+[Epoch 75][Batch 199], Speed: 36.215 samples/sec,Loss_D=-0.612. Loss_G=0.104.  Loss_D_real=-0.612. Loss_D_fake=0.000. train_student_ori_net_CrossEntropy=2.225. train_student_ori_net_SmoothL1=1.065. cosine_length_loss_metric=0.374.
+[Epoch 76][Batch 99], Speed: 32.881 samples/sec,Loss_D=-0.343. Loss_G=0.068.  Loss_D_real=-0.363. Loss_D_fake=-0.020. train_student_ori_net_CrossEntropy=2.194. train_student_ori_net_SmoothL1=1.054. cosine_length_loss_metric=0.376.
+[Epoch 76][Batch 199], Speed: 38.064 samples/sec,Loss_D=-0.315. Loss_G=0.105.  Loss_D_real=-0.301. Loss_D_fake=0.014. train_student_ori_net_CrossEntropy=2.200. train_student_ori_net_SmoothL1=1.059. cosine_length_loss_metric=0.375.
+[Epoch 77][Batch 99], Speed: 32.944 samples/sec,Loss_D=-0.285. Loss_G=0.044.  Loss_D_real=-0.338. Loss_D_fake=-0.053. train_student_ori_net_CrossEntropy=2.181. train_student_ori_net_SmoothL1=1.046. cosine_length_loss_metric=0.372.
+[Epoch 77][Batch 199], Speed: 35.738 samples/sec,Loss_D=-0.282. Loss_G=0.164.  Loss_D_real=-0.217. Loss_D_fake=0.065. train_student_ori_net_CrossEntropy=2.208. train_student_ori_net_SmoothL1=1.063. cosine_length_loss_metric=0.375.
+[Epoch 78][Batch 99], Speed: 33.825 samples/sec,Loss_D=-0.188. Loss_G=0.056.  Loss_D_real=-0.210. Loss_D_fake=-0.022. train_student_ori_net_CrossEntropy=2.158. train_student_ori_net_SmoothL1=1.056. cosine_length_loss_metric=0.377.
+[Epoch 78][Batch 199], Speed: 36.278 samples/sec,Loss_D=-0.164. Loss_G=0.001.  Loss_D_real=-0.227. Loss_D_fake=-0.063. train_student_ori_net_CrossEntropy=2.177. train_student_ori_net_SmoothL1=1.058. cosine_length_loss_metric=0.380.
+[Epoch 79][Batch 99], Speed: 32.890 samples/sec,Loss_D=-0.068. Loss_G=-0.051.  Loss_D_real=-0.151. Loss_D_fake=-0.082. train_student_ori_net_CrossEntropy=2.162. train_student_ori_net_SmoothL1=1.024. cosine_length_loss_metric=0.375.
+[Epoch 79][Batch 199], Speed: 37.779 samples/sec,Loss_D=-0.079. Loss_G=-0.089.  Loss_D_real=-0.198. Loss_D_fake=-0.118. train_student_ori_net_CrossEntropy=2.169. train_student_ori_net_SmoothL1=1.038. cosine_length_loss_metric=0.377.
+[Epoch 80][Batch 99], Speed: 36.695 samples/sec,Loss_D=-0.066. Loss_G=-0.037.  Loss_D_real=-0.128. Loss_D_fake=-0.062. train_student_ori_net_CrossEntropy=2.150. train_student_ori_net_SmoothL1=1.044. cosine_length_loss_metric=0.374.
+[Epoch 80][Batch 199], Speed: 35.028 samples/sec,Loss_D=-0.061. Loss_G=-0.100.  Loss_D_real=-0.180. Loss_D_fake=-0.118. train_student_ori_net_CrossEntropy=2.169. train_student_ori_net_SmoothL1=1.050. cosine_length_loss_metric=0.376.
+[Epoch 81][Batch 99], Speed: 32.770 samples/sec,Loss_D=-0.046. Loss_G=-0.111.  Loss_D_real=-0.167. Loss_D_fake=-0.121. train_student_ori_net_CrossEntropy=2.147. train_student_ori_net_SmoothL1=1.045. cosine_length_loss_metric=0.376.
+[Epoch 81][Batch 199], Speed: 37.842 samples/sec,Loss_D=-0.045. Loss_G=-0.100.  Loss_D_real=-0.154. Loss_D_fake=-0.109. train_student_ori_net_CrossEntropy=2.148. train_student_ori_net_SmoothL1=1.039. cosine_length_loss_metric=0.375.
+[Epoch 82][Batch 99], Speed: 33.827 samples/sec,Loss_D=-0.042. Loss_G=-0.103.  Loss_D_real=-0.155. Loss_D_fake=-0.112. train_student_ori_net_CrossEntropy=2.105. train_student_ori_net_SmoothL1=1.015. cosine_length_loss_metric=0.380.
+[Epoch 82][Batch 199], Speed: 33.056 samples/sec,Loss_D=-0.041. Loss_G=-0.078.  Loss_D_real=-0.125. Loss_D_fake=-0.085. train_student_ori_net_CrossEntropy=2.128. train_student_ori_net_SmoothL1=1.013. cosine_length_loss_metric=0.377.
+[Epoch 83][Batch 99], Speed: 37.318 samples/sec,Loss_D=-0.037. Loss_G=-0.159.  Loss_D_real=-0.204. Loss_D_fake=-0.166. train_student_ori_net_CrossEntropy=2.126. train_student_ori_net_SmoothL1=1.018. cosine_length_loss_metric=0.374.
+[Epoch 83][Batch 199], Speed: 36.247 samples/sec,Loss_D=-0.036. Loss_G=-0.192.  Loss_D_real=-0.235. Loss_D_fake=-0.198. train_student_ori_net_CrossEntropy=2.129. train_student_ori_net_SmoothL1=1.024. cosine_length_loss_metric=0.375.
+[Epoch 84][Batch 99], Speed: 35.537 samples/sec,Loss_D=-0.037. Loss_G=-0.073.  Loss_D_real=-0.116. Loss_D_fake=-0.079. train_student_ori_net_CrossEntropy=2.116. train_student_ori_net_SmoothL1=1.003. cosine_length_loss_metric=0.373.
+[Epoch 84][Batch 199], Speed: 35.557 samples/sec,Loss_D=-0.041. Loss_G=-0.028.  Loss_D_real=-0.075. Loss_D_fake=-0.034. train_student_ori_net_CrossEntropy=2.125. train_student_ori_net_SmoothL1=1.018. cosine_length_loss_metric=0.374.
+[Epoch 85][Batch 99], Speed: 37.659 samples/sec,Loss_D=-0.050. Loss_G=0.109.  Loss_D_real=0.052. Loss_D_fake=0.102. train_student_ori_net_CrossEntropy=2.083. train_student_ori_net_SmoothL1=1.013. cosine_length_loss_metric=0.377.
+[Epoch 85][Batch 199], Speed: 37.436 samples/sec,Loss_D=-0.050. Loss_G=0.073.  Loss_D_real=0.014. Loss_D_fake=0.064. train_student_ori_net_CrossEntropy=2.089. train_student_ori_net_SmoothL1=1.005. cosine_length_loss_metric=0.376.
+[Epoch 86][Batch 99], Speed: 32.440 samples/sec,Loss_D=-0.048. Loss_G=-0.030.  Loss_D_real=-0.085. Loss_D_fake=-0.038. train_student_ori_net_CrossEntropy=2.100. train_student_ori_net_SmoothL1=1.012. cosine_length_loss_metric=0.379.
+[Epoch 86][Batch 199], Speed: 35.568 samples/sec,Loss_D=-0.046. Loss_G=-0.059.  Loss_D_real=-0.113. Loss_D_fake=-0.067. train_student_ori_net_CrossEntropy=2.106. train_student_ori_net_SmoothL1=1.014. cosine_length_loss_metric=0.382.
+[Epoch 87][Batch 99], Speed: 37.051 samples/sec,Loss_D=-0.037. Loss_G=-0.033.  Loss_D_real=-0.078. Loss_D_fake=-0.041. train_student_ori_net_CrossEntropy=2.081. train_student_ori_net_SmoothL1=1.000. cosine_length_loss_metric=0.385.
+[Epoch 87][Batch 199], Speed: 35.935 samples/sec,Loss_D=-0.036. Loss_G=-0.011.  Loss_D_real=-0.054. Loss_D_fake=-0.018. train_student_ori_net_CrossEntropy=2.082. train_student_ori_net_SmoothL1=1.003. cosine_length_loss_metric=0.384.
+[Epoch 88][Batch 99], Speed: 33.032 samples/sec,Loss_D=-0.038. Loss_G=-0.039.  Loss_D_real=-0.081. Loss_D_fake=-0.044. train_student_ori_net_CrossEntropy=2.072. train_student_ori_net_SmoothL1=1.006. cosine_length_loss_metric=0.381.
+[Epoch 88][Batch 199], Speed: 35.062 samples/sec,Loss_D=-0.038. Loss_G=-0.051.  Loss_D_real=-0.095. Loss_D_fake=-0.057. train_student_ori_net_CrossEntropy=2.079. train_student_ori_net_SmoothL1=1.005. cosine_length_loss_metric=0.380.
+[Epoch 89][Batch 99], Speed: 34.856 samples/sec,Loss_D=-0.036. Loss_G=0.145.  Loss_D_real=0.103. Loss_D_fake=0.139. train_student_ori_net_CrossEntropy=2.081. train_student_ori_net_SmoothL1=1.006. cosine_length_loss_metric=0.387.
+[Epoch 89][Batch 199], Speed: 35.806 samples/sec,Loss_D=-0.036. Loss_G=0.107.  Loss_D_real=0.066. Loss_D_fake=0.102. train_student_ori_net_CrossEntropy=2.084. train_student_ori_net_SmoothL1=1.003. cosine_length_loss_metric=0.388.
+[Epoch 90][Batch 99], Speed: 36.283 samples/sec,Loss_D=-0.036. Loss_G=0.033.  Loss_D_real=-0.007. Loss_D_fake=0.029. train_student_ori_net_CrossEntropy=2.071. train_student_ori_net_SmoothL1=0.992. cosine_length_loss_metric=0.386.
+[Epoch 90][Batch 199], Speed: 36.083 samples/sec,Loss_D=-0.035. Loss_G=0.001.  Loss_D_real=-0.039. Loss_D_fake=-0.004. train_student_ori_net_CrossEntropy=2.075. train_student_ori_net_SmoothL1=0.982. cosine_length_loss_metric=0.385.
+[Epoch 91][Batch 99], Speed: 34.847 samples/sec,Loss_D=-0.037. Loss_G=0.006.  Loss_D_real=-0.036. Loss_D_fake=0.001. train_student_ori_net_CrossEntropy=2.042. train_student_ori_net_SmoothL1=0.964. cosine_length_loss_metric=0.383.
+[Epoch 91][Batch 199], Speed: 37.693 samples/sec,Loss_D=-0.038. Loss_G=-0.014.  Loss_D_real=-0.058. Loss_D_fake=-0.020. train_student_ori_net_CrossEntropy=2.055. train_student_ori_net_SmoothL1=0.971. cosine_length_loss_metric=0.384.
+[Epoch 92][Batch 99], Speed: 35.112 samples/sec,Loss_D=-0.039. Loss_G=0.054.  Loss_D_real=0.008. Loss_D_fake=0.047. train_student_ori_net_CrossEntropy=2.054. train_student_ori_net_SmoothL1=0.997. cosine_length_loss_metric=0.385.
+[Epoch 92][Batch 199], Speed: 35.657 samples/sec,Loss_D=-0.036. Loss_G=0.119.  Loss_D_real=0.076. Loss_D_fake=0.112. train_student_ori_net_CrossEntropy=2.051. train_student_ori_net_SmoothL1=0.978. cosine_length_loss_metric=0.382.
+[Epoch 93][Batch 99], Speed: 33.457 samples/sec,Loss_D=-0.033. Loss_G=0.235.  Loss_D_real=0.198. Loss_D_fake=0.231. train_student_ori_net_CrossEntropy=2.045. train_student_ori_net_SmoothL1=1.000. cosine_length_loss_metric=0.383.
+[Epoch 93][Batch 199], Speed: 35.037 samples/sec,Loss_D=-0.032. Loss_G=0.194.  Loss_D_real=0.157. Loss_D_fake=0.189. train_student_ori_net_CrossEntropy=2.050. train_student_ori_net_SmoothL1=0.986. cosine_length_loss_metric=0.384.
+[Epoch 94][Batch 99], Speed: 35.966 samples/sec,Loss_D=-0.030. Loss_G=0.213.  Loss_D_real=0.178. Loss_D_fake=0.207. train_student_ori_net_CrossEntropy=2.010. train_student_ori_net_SmoothL1=0.975. cosine_length_loss_metric=0.383.
+[Epoch 94][Batch 199], Speed: 35.295 samples/sec,Loss_D=-0.030. Loss_G=0.282.  Loss_D_real=0.246. Loss_D_fake=0.276. train_student_ori_net_CrossEntropy=2.016. train_student_ori_net_SmoothL1=0.974. cosine_length_loss_metric=0.382.
+[Epoch 95][Batch 99], Speed: 33.321 samples/sec,Loss_D=-0.026. Loss_G=0.419.  Loss_D_real=0.389. Loss_D_fake=0.414. train_student_ori_net_CrossEntropy=2.014. train_student_ori_net_SmoothL1=0.975. cosine_length_loss_metric=0.385.
+[Epoch 95][Batch 199], Speed: 37.902 samples/sec,Loss_D=-0.027. Loss_G=0.376.  Loss_D_real=0.345. Loss_D_fake=0.372. train_student_ori_net_CrossEntropy=2.020. train_student_ori_net_SmoothL1=0.966. cosine_length_loss_metric=0.383.
+[Epoch 96][Batch 99], Speed: 35.591 samples/sec,Loss_D=-0.029. Loss_G=0.168.  Loss_D_real=0.133. Loss_D_fake=0.161. train_student_ori_net_CrossEntropy=2.032. train_student_ori_net_SmoothL1=0.948. cosine_length_loss_metric=0.377.
+[Epoch 96][Batch 199], Speed: 37.888 samples/sec,Loss_D=-0.027. Loss_G=0.155.  Loss_D_real=0.123. Loss_D_fake=0.150. train_student_ori_net_CrossEntropy=2.022. train_student_ori_net_SmoothL1=0.955. cosine_length_loss_metric=0.378.
+[Epoch 97][Batch 99], Speed: 33.290 samples/sec,Loss_D=-0.709. Loss_G=0.317.  Loss_D_real=-0.505. Loss_D_fake=0.204. train_student_ori_net_CrossEntropy=2.031. train_student_ori_net_SmoothL1=0.962. cosine_length_loss_metric=0.381.
+[Epoch 97][Batch 199], Speed: 34.465 samples/sec,Loss_D=-0.728. Loss_G=0.039.  Loss_D_real=-0.806. Loss_D_fake=-0.077. train_student_ori_net_CrossEntropy=2.058. train_student_ori_net_SmoothL1=0.980. cosine_length_loss_metric=0.381.
+[Epoch 98][Batch 99], Speed: 33.389 samples/sec,Loss_D=-0.756. Loss_G=-0.008.  Loss_D_real=-0.911. Loss_D_fake=-0.156. train_student_ori_net_CrossEntropy=2.044. train_student_ori_net_SmoothL1=0.968. cosine_length_loss_metric=0.386.
+[Epoch 98][Batch 199], Speed: 35.972 samples/sec,Loss_D=-0.641. Loss_G=0.053.  Loss_D_real=-0.709. Loss_D_fake=-0.068. train_student_ori_net_CrossEntropy=2.055. train_student_ori_net_SmoothL1=0.977. cosine_length_loss_metric=0.384.
+[Epoch 99][Batch 99], Speed: 35.137 samples/sec,Loss_D=-0.573. Loss_G=0.324.  Loss_D_real=-0.364. Loss_D_fake=0.209. train_student_ori_net_CrossEntropy=2.056. train_student_ori_net_SmoothL1=0.975. cosine_length_loss_metric=0.384.
+[Epoch 99][Batch 199], Speed: 35.026 samples/sec,Loss_D=-0.705. Loss_G=0.421.  Loss_D_real=-0.405. Loss_D_fake=0.300. train_student_ori_net_CrossEntropy=2.052. train_student_ori_net_SmoothL1=0.980. cosine_length_loss_metric=0.385.
+[Epoch 100][Batch 99], Speed: 32.669 samples/sec,Loss_D=-0.721. Loss_G=0.611.  Loss_D_real=-0.238. Loss_D_fake=0.483. train_student_ori_net_CrossEntropy=2.024. train_student_ori_net_SmoothL1=0.965. cosine_length_loss_metric=0.390.
+[Epoch 100][Batch 199], Speed: 34.152 samples/sec,Loss_D=-0.641. Loss_G=0.636.  Loss_D_real=-0.128. Loss_D_fake=0.513. train_student_ori_net_CrossEntropy=2.028. train_student_ori_net_SmoothL1=0.980. cosine_length_loss_metric=0.388.
+[Epoch 101][Batch 99], Speed: 35.253 samples/sec,Loss_D=-0.334. Loss_G=0.742.  Loss_D_real=0.311. Loss_D_fake=0.645. train_student_ori_net_CrossEntropy=2.033. train_student_ori_net_SmoothL1=0.978. cosine_length_loss_metric=0.385.
+[Epoch 101][Batch 199], Speed: 36.414 samples/sec,Loss_D=-0.341. Loss_G=0.695.  Loss_D_real=0.255. Loss_D_fake=0.596. train_student_ori_net_CrossEntropy=2.014. train_student_ori_net_SmoothL1=0.968. cosine_length_loss_metric=0.385.
+[Epoch 102][Batch 99], Speed: 33.441 samples/sec,Loss_D=-0.362. Loss_G=0.896.  Loss_D_real=0.407. Loss_D_fake=0.768. train_student_ori_net_CrossEntropy=1.995. train_student_ori_net_SmoothL1=0.939. cosine_length_loss_metric=0.383.
+[Epoch 102][Batch 199], Speed: 34.661 samples/sec,Loss_D=-0.311. Loss_G=0.882.  Loss_D_real=0.462. Loss_D_fake=0.773. train_student_ori_net_CrossEntropy=2.003. train_student_ori_net_SmoothL1=0.964. cosine_length_loss_metric=0.382.
+[Epoch 103][Batch 99], Speed: 33.343 samples/sec,Loss_D=-0.071. Loss_G=0.799.  Loss_D_real=0.705. Loss_D_fake=0.776. train_student_ori_net_CrossEntropy=1.988. train_student_ori_net_SmoothL1=0.960. cosine_length_loss_metric=0.384.
+[Epoch 103][Batch 199], Speed: 35.267 samples/sec,Loss_D=-0.053. Loss_G=1.015.  Loss_D_real=0.927. Loss_D_fake=0.979. train_student_ori_net_CrossEntropy=2.001. train_student_ori_net_SmoothL1=0.964. cosine_length_loss_metric=0.381.
+[Epoch 104][Batch 99], Speed: 33.437 samples/sec,Loss_D=-0.312. Loss_G=3.346.  Loss_D_real=2.936. Loss_D_fake=3.248. train_student_ori_net_CrossEntropy=1.988. train_student_ori_net_SmoothL1=0.957. cosine_length_loss_metric=0.384.
+[Epoch 104][Batch 199], Speed: 35.261 samples/sec,Loss_D=-0.275. Loss_G=3.254.  Loss_D_real=2.865. Loss_D_fake=3.139. train_student_ori_net_CrossEntropy=1.993. train_student_ori_net_SmoothL1=0.958. cosine_length_loss_metric=0.383.
+[Epoch 105][Batch 99], Speed: 37.254 samples/sec,Loss_D=-0.207. Loss_G=2.673.  Loss_D_real=2.415. Loss_D_fake=2.621. train_student_ori_net_CrossEntropy=1.974. train_student_ori_net_SmoothL1=0.950. cosine_length_loss_metric=0.380.
+[Epoch 105][Batch 199], Speed: 36.692 samples/sec,Loss_D=-0.221. Loss_G=2.136.  Loss_D_real=1.868. Loss_D_fake=2.089. train_student_ori_net_CrossEntropy=1.984. train_student_ori_net_SmoothL1=0.947. cosine_length_loss_metric=0.382.
+[Epoch 106][Batch 99], Speed: 33.536 samples/sec,Loss_D=-0.211. Loss_G=1.360.  Loss_D_real=1.096. Loss_D_fake=1.307. train_student_ori_net_CrossEntropy=1.969. train_student_ori_net_SmoothL1=0.936. cosine_length_loss_metric=0.377.
+[Epoch 106][Batch 199], Speed: 33.196 samples/sec,Loss_D=-0.207. Loss_G=1.435.  Loss_D_real=1.176. Loss_D_fake=1.383. train_student_ori_net_CrossEntropy=1.975. train_student_ori_net_SmoothL1=0.942. cosine_length_loss_metric=0.379.
+[Epoch 107][Batch 99], Speed: 32.257 samples/sec,Loss_D=-0.161. Loss_G=1.609.  Loss_D_real=1.391. Loss_D_fake=1.552. train_student_ori_net_CrossEntropy=1.956. train_student_ori_net_SmoothL1=0.924. cosine_length_loss_metric=0.375.
+[Epoch 107][Batch 199], Speed: 33.578 samples/sec,Loss_D=-0.170. Loss_G=1.443.  Loss_D_real=1.221. Loss_D_fake=1.391. train_student_ori_net_CrossEntropy=1.960. train_student_ori_net_SmoothL1=0.935. cosine_length_loss_metric=0.380.
+[Epoch 108][Batch 99], Speed: 33.406 samples/sec,Loss_D=-0.140. Loss_G=1.558.  Loss_D_real=1.368. Loss_D_fake=1.508. train_student_ori_net_CrossEntropy=1.942. train_student_ori_net_SmoothL1=0.930. cosine_length_loss_metric=0.382.
+[Epoch 108][Batch 199], Speed: 34.337 samples/sec,Loss_D=-0.129. Loss_G=1.502.  Loss_D_real=1.333. Loss_D_fake=1.461. train_student_ori_net_CrossEntropy=1.956. train_student_ori_net_SmoothL1=0.928. cosine_length_loss_metric=0.382.
+[Epoch 109][Batch 99], Speed: 33.714 samples/sec,Loss_D=-0.099. Loss_G=1.224.  Loss_D_real=1.099. Loss_D_fake=1.198. train_student_ori_net_CrossEntropy=1.942. train_student_ori_net_SmoothL1=0.926. cosine_length_loss_metric=0.380.
+[Epoch 109][Batch 199], Speed: 33.914 samples/sec,Loss_D=-0.092. Loss_G=1.408.  Loss_D_real=1.293. Loss_D_fake=1.384. train_student_ori_net_CrossEntropy=1.960. train_student_ori_net_SmoothL1=0.934. cosine_length_loss_metric=0.380.
+[Epoch 110][Batch 99], Speed: 36.861 samples/sec,Loss_D=-0.049. Loss_G=2.419.  Loss_D_real=2.333. Loss_D_fake=2.382. train_student_ori_net_CrossEntropy=1.929. train_student_ori_net_SmoothL1=0.925. cosine_length_loss_metric=0.383.
+[Epoch 110][Batch 199], Speed: 37.007 samples/sec,Loss_D=-0.068. Loss_G=2.291.  Loss_D_real=2.193. Loss_D_fake=2.261. train_student_ori_net_CrossEntropy=1.937. train_student_ori_net_SmoothL1=0.926. cosine_length_loss_metric=0.383.
+[Epoch 111][Batch 99], Speed: 33.217 samples/sec,Loss_D=-0.051. Loss_G=2.985.  Loss_D_real=2.903. Loss_D_fake=2.954. train_student_ori_net_CrossEntropy=1.929. train_student_ori_net_SmoothL1=0.902. cosine_length_loss_metric=0.379.
+[Epoch 111][Batch 199], Speed: 37.219 samples/sec,Loss_D=-0.101. Loss_G=3.042.  Loss_D_real=2.884. Loss_D_fake=2.985. train_student_ori_net_CrossEntropy=1.946. train_student_ori_net_SmoothL1=0.923. cosine_length_loss_metric=0.379.
+[Epoch 112][Batch 99], Speed: 36.051 samples/sec,Loss_D=-0.158. Loss_G=3.274.  Loss_D_real=3.066. Loss_D_fake=3.224. train_student_ori_net_CrossEntropy=1.924. train_student_ori_net_SmoothL1=0.918. cosine_length_loss_metric=0.382.
+[Epoch 112][Batch 199], Speed: 34.590 samples/sec,Loss_D=-0.156. Loss_G=3.448.  Loss_D_real=3.228. Loss_D_fake=3.383. train_student_ori_net_CrossEntropy=1.923. train_student_ori_net_SmoothL1=0.915. cosine_length_loss_metric=0.381.
+[Epoch 113][Batch 99], Speed: 32.957 samples/sec,Loss_D=-0.225. Loss_G=3.542.  Loss_D_real=3.253. Loss_D_fake=3.478. train_student_ori_net_CrossEntropy=1.939. train_student_ori_net_SmoothL1=0.919. cosine_length_loss_metric=0.384.
+[Epoch 113][Batch 199], Speed: 32.009 samples/sec,Loss_D=-0.194. Loss_G=3.613.  Loss_D_real=3.353. Loss_D_fake=3.547. train_student_ori_net_CrossEntropy=1.948. train_student_ori_net_SmoothL1=0.930. cosine_length_loss_metric=0.383.
+[Epoch 114][Batch 99], Speed: 35.126 samples/sec,Loss_D=-0.317. Loss_G=3.940.  Loss_D_real=3.509. Loss_D_fake=3.826. train_student_ori_net_CrossEntropy=1.937. train_student_ori_net_SmoothL1=0.927. cosine_length_loss_metric=0.383.
+[Epoch 114][Batch 199], Speed: 37.470 samples/sec,Loss_D=-0.220. Loss_G=3.978.  Loss_D_real=3.669. Loss_D_fake=3.889. train_student_ori_net_CrossEntropy=1.942. train_student_ori_net_SmoothL1=0.925. cosine_length_loss_metric=0.384.
+[Epoch 115][Batch 99], Speed: 33.600 samples/sec,Loss_D=-0.514. Loss_G=3.928.  Loss_D_real=3.325. Loss_D_fake=3.839. train_student_ori_net_CrossEntropy=1.908. train_student_ori_net_SmoothL1=0.913. cosine_length_loss_metric=0.382.
+[Epoch 115][Batch 199], Speed: 37.042 samples/sec,Loss_D=-0.510. Loss_G=4.060.  Loss_D_real=3.445. Loss_D_fake=3.955. train_student_ori_net_CrossEntropy=1.928. train_student_ori_net_SmoothL1=0.916. cosine_length_loss_metric=0.384.
+[Epoch 116][Batch 99], Speed: 34.928 samples/sec,Loss_D=-0.355. Loss_G=4.454.  Loss_D_real=3.961. Loss_D_fake=4.316. train_student_ori_net_CrossEntropy=1.924. train_student_ori_net_SmoothL1=0.926. cosine_length_loss_metric=0.383.
+[Epoch 116][Batch 199], Speed: 33.129 samples/sec,Loss_D=-0.266. Loss_G=4.236.  Loss_D_real=3.859. Loss_D_fake=4.126. train_student_ori_net_CrossEntropy=1.920. train_student_ori_net_SmoothL1=0.922. cosine_length_loss_metric=0.383.
+[Epoch 117][Batch 99], Speed: 35.039 samples/sec,Loss_D=-0.120. Loss_G=3.572.  Loss_D_real=3.400. Loss_D_fake=3.519. train_student_ori_net_CrossEntropy=1.903. train_student_ori_net_SmoothL1=0.894. cosine_length_loss_metric=0.384.
+[Epoch 117][Batch 199], Speed: 33.923 samples/sec,Loss_D=-0.105. Loss_G=3.158.  Loss_D_real=3.012. Loss_D_fake=3.118. train_student_ori_net_CrossEntropy=1.909. train_student_ori_net_SmoothL1=0.909. cosine_length_loss_metric=0.385.
+[Epoch 118][Batch 99], Speed: 33.155 samples/sec,Loss_D=-0.145. Loss_G=3.536.  Loss_D_real=3.336. Loss_D_fake=3.480. train_student_ori_net_CrossEntropy=1.893. train_student_ori_net_SmoothL1=0.902. cosine_length_loss_metric=0.380.
+[Epoch 118][Batch 199], Speed: 37.451 samples/sec,Loss_D=-0.196. Loss_G=3.590.  Loss_D_real=3.329. Loss_D_fake=3.525. train_student_ori_net_CrossEntropy=1.900. train_student_ori_net_SmoothL1=0.900. cosine_length_loss_metric=0.383.
+[Epoch 119][Batch 99], Speed: 37.080 samples/sec,Loss_D=-0.315. Loss_G=3.577.  Loss_D_real=3.141. Loss_D_fake=3.456. train_student_ori_net_CrossEntropy=1.894. train_student_ori_net_SmoothL1=0.913. cosine_length_loss_metric=0.387.
+[Epoch 119][Batch 199], Speed: 32.912 samples/sec,Loss_D=-0.279. Loss_G=3.667.  Loss_D_real=3.296. Loss_D_fake=3.575. train_student_ori_net_CrossEntropy=1.901. train_student_ori_net_SmoothL1=0.910. cosine_length_loss_metric=0.384.
+[Epoch 120][Batch 99], Speed: 37.020 samples/sec,Loss_D=-0.129. Loss_G=2.486.  Loss_D_real=2.333. Loss_D_fake=2.462. train_student_ori_net_CrossEntropy=1.903. train_student_ori_net_SmoothL1=0.903. cosine_length_loss_metric=0.387.
+[Epoch 120][Batch 199], Speed: 33.970 samples/sec,Loss_D=-0.105. Loss_G=2.255.  Loss_D_real=2.120. Loss_D_fake=2.225. train_student_ori_net_CrossEntropy=1.900. train_student_ori_net_SmoothL1=0.904. cosine_length_loss_metric=0.385.
+[Epoch 121][Batch 99], Speed: 37.232 samples/sec,Loss_D=-0.070. Loss_G=2.394.  Loss_D_real=2.308. Loss_D_fake=2.378. train_student_ori_net_CrossEntropy=1.876. train_student_ori_net_SmoothL1=0.888. cosine_length_loss_metric=0.381.
+[Epoch 121][Batch 199], Speed: 37.472 samples/sec,Loss_D=-0.057. Loss_G=2.156.  Loss_D_real=2.085. Loss_D_fake=2.142. train_student_ori_net_CrossEntropy=1.868. train_student_ori_net_SmoothL1=0.883. cosine_length_loss_metric=0.383.
+[Epoch 122][Batch 99], Speed: 37.455 samples/sec,Loss_D=-0.062. Loss_G=1.771.  Loss_D_real=1.702. Loss_D_fake=1.764. train_student_ori_net_CrossEntropy=1.886. train_student_ori_net_SmoothL1=0.894. cosine_length_loss_metric=0.378.
+[Epoch 122][Batch 199], Speed: 37.832 samples/sec,Loss_D=-0.056. Loss_G=1.732.  Loss_D_real=1.669. Loss_D_fake=1.725. train_student_ori_net_CrossEntropy=1.878. train_student_ori_net_SmoothL1=0.892. cosine_length_loss_metric=0.380.
+[Epoch 123][Batch 99], Speed: 32.103 samples/sec,Loss_D=-0.046. Loss_G=1.819.  Loss_D_real=1.760. Loss_D_fake=1.806. train_student_ori_net_CrossEntropy=1.837. train_student_ori_net_SmoothL1=0.867. cosine_length_loss_metric=0.387.
+[Epoch 123][Batch 199], Speed: 36.548 samples/sec,Loss_D=-0.042. Loss_G=1.793.  Loss_D_real=1.738. Loss_D_fake=1.780. train_student_ori_net_CrossEntropy=1.850. train_student_ori_net_SmoothL1=0.873. cosine_length_loss_metric=0.386.
+[Epoch 124][Batch 99], Speed: 33.164 samples/sec,Loss_D=-0.071. Loss_G=3.008.  Loss_D_real=2.914. Loss_D_fake=2.985. train_student_ori_net_CrossEntropy=1.872. train_student_ori_net_SmoothL1=0.900. cosine_length_loss_metric=0.387.
+[Epoch 124][Batch 199], Speed: 36.141 samples/sec,Loss_D=-0.050. Loss_G=2.548.  Loss_D_real=2.488. Loss_D_fake=2.537. train_student_ori_net_CrossEntropy=1.861. train_student_ori_net_SmoothL1=0.889. cosine_length_loss_metric=0.386.
+[Epoch 125][Batch 99], Speed: 34.785 samples/sec,Loss_D=-0.024. Loss_G=1.965.  Loss_D_real=1.937. Loss_D_fake=1.961. train_student_ori_net_CrossEntropy=1.805. train_student_ori_net_SmoothL1=0.874. cosine_length_loss_metric=0.381.
+[Epoch 125][Batch 199], Speed: 35.947 samples/sec,Loss_D=-0.024. Loss_G=1.986.  Loss_D_real=1.958. Loss_D_fake=1.982. train_student_ori_net_CrossEntropy=1.842. train_student_ori_net_SmoothL1=0.881. cosine_length_loss_metric=0.382.
+[Epoch 126][Batch 99], Speed: 33.031 samples/sec,Loss_D=-0.024. Loss_G=1.993.  Loss_D_real=1.965. Loss_D_fake=1.989. train_student_ori_net_CrossEntropy=1.823. train_student_ori_net_SmoothL1=0.856. cosine_length_loss_metric=0.385.
+[Epoch 126][Batch 199], Speed: 33.488 samples/sec,Loss_D=-0.025. Loss_G=1.976.  Loss_D_real=1.947. Loss_D_fake=1.972. train_student_ori_net_CrossEntropy=1.835. train_student_ori_net_SmoothL1=0.864. cosine_length_loss_metric=0.382.
+[Epoch 127][Batch 99], Speed: 33.402 samples/sec,Loss_D=-0.026. Loss_G=1.885.  Loss_D_real=1.857. Loss_D_fake=1.882. train_student_ori_net_CrossEntropy=1.837. train_student_ori_net_SmoothL1=0.865. cosine_length_loss_metric=0.387.
+[Epoch 127][Batch 199], Speed: 36.076 samples/sec,Loss_D=-0.026. Loss_G=1.823.  Loss_D_real=1.794. Loss_D_fake=1.819. train_student_ori_net_CrossEntropy=1.838. train_student_ori_net_SmoothL1=0.876. cosine_length_loss_metric=0.385.
+[Epoch 128][Batch 99], Speed: 37.817 samples/sec,Loss_D=-0.024. Loss_G=1.718.  Loss_D_real=1.690. Loss_D_fake=1.714. train_student_ori_net_CrossEntropy=1.837. train_student_ori_net_SmoothL1=0.873. cosine_length_loss_metric=0.382.
+[Epoch 128][Batch 199], Speed: 36.238 samples/sec,Loss_D=-0.025. Loss_G=1.744.  Loss_D_real=1.715. Loss_D_fake=1.739. train_student_ori_net_CrossEntropy=1.827. train_student_ori_net_SmoothL1=0.863. cosine_length_loss_metric=0.381.
+[Epoch 129][Batch 99], Speed: 35.972 samples/sec,Loss_D=-0.025. Loss_G=1.778.  Loss_D_real=1.749. Loss_D_fake=1.774. train_student_ori_net_CrossEntropy=1.816. train_student_ori_net_SmoothL1=0.872. cosine_length_loss_metric=0.381.
+[Epoch 129][Batch 199], Speed: 37.057 samples/sec,Loss_D=-0.025. Loss_G=1.778.  Loss_D_real=1.749. Loss_D_fake=1.774. train_student_ori_net_CrossEntropy=1.826. train_student_ori_net_SmoothL1=0.865. cosine_length_loss_metric=0.381.
+[Epoch 130][Batch 99], Speed: 33.433 samples/sec,Loss_D=-0.025. Loss_G=1.803.  Loss_D_real=1.773. Loss_D_fake=1.798. train_student_ori_net_CrossEntropy=1.804. train_student_ori_net_SmoothL1=0.848. cosine_length_loss_metric=0.387.
+[Epoch 130][Batch 199], Speed: 36.875 samples/sec,Loss_D=-0.026. Loss_G=1.849.  Loss_D_real=1.819. Loss_D_fake=1.845. train_student_ori_net_CrossEntropy=1.819. train_student_ori_net_SmoothL1=0.853. cosine_length_loss_metric=0.385.
+[Epoch 131][Batch 99], Speed: 35.277 samples/sec,Loss_D=-0.024. Loss_G=1.884.  Loss_D_real=1.857. Loss_D_fake=1.881. train_student_ori_net_CrossEntropy=1.815. train_student_ori_net_SmoothL1=0.866. cosine_length_loss_metric=0.380.
+[Epoch 131][Batch 199], Speed: 37.575 samples/sec,Loss_D=-0.024. Loss_G=1.834.  Loss_D_real=1.808. Loss_D_fake=1.831. train_student_ori_net_CrossEntropy=1.817. train_student_ori_net_SmoothL1=0.855. cosine_length_loss_metric=0.380.
+[Epoch 132][Batch 99], Speed: 32.973 samples/sec,Loss_D=-0.022. Loss_G=1.773.  Loss_D_real=1.746. Loss_D_fake=1.768. train_student_ori_net_CrossEntropy=1.801. train_student_ori_net_SmoothL1=0.855. cosine_length_loss_metric=0.383.
+[Epoch 132][Batch 199], Speed: 33.895 samples/sec,Loss_D=-0.022. Loss_G=1.767.  Loss_D_real=1.741. Loss_D_fake=1.764. train_student_ori_net_CrossEntropy=1.804. train_student_ori_net_SmoothL1=0.852. cosine_length_loss_metric=0.381.
+[Epoch 133][Batch 99], Speed: 33.508 samples/sec,Loss_D=-0.023. Loss_G=1.864.  Loss_D_real=1.838. Loss_D_fake=1.861. train_student_ori_net_CrossEntropy=1.826. train_student_ori_net_SmoothL1=0.874. cosine_length_loss_metric=0.381.
+[Epoch 133][Batch 199], Speed: 37.982 samples/sec,Loss_D=-0.022. Loss_G=1.875.  Loss_D_real=1.849. Loss_D_fake=1.872. train_student_ori_net_CrossEntropy=1.821. train_student_ori_net_SmoothL1=0.876. cosine_length_loss_metric=0.383.
+[Epoch 134][Batch 99], Speed: 32.433 samples/sec,Loss_D=-0.060. Loss_G=1.565.  Loss_D_real=1.493. Loss_D_fake=1.553. train_student_ori_net_CrossEntropy=1.804. train_student_ori_net_SmoothL1=0.858. cosine_length_loss_metric=0.385.
+[Epoch 134][Batch 199], Speed: 35.286 samples/sec,Loss_D=-0.061. Loss_G=1.492.  Loss_D_real=1.418. Loss_D_fake=1.479. train_student_ori_net_CrossEntropy=1.816. train_student_ori_net_SmoothL1=0.856. cosine_length_loss_metric=0.386.
+[Epoch 135][Batch 99], Speed: 33.434 samples/sec,Loss_D=-0.055. Loss_G=1.558.  Loss_D_real=1.482. Loss_D_fake=1.537. train_student_ori_net_CrossEntropy=1.833. train_student_ori_net_SmoothL1=0.883. cosine_length_loss_metric=0.378.
+[Epoch 135][Batch 199], Speed: 33.988 samples/sec,Loss_D=-0.042. Loss_G=1.632.  Loss_D_real=1.565. Loss_D_fake=1.607. train_student_ori_net_CrossEntropy=1.833. train_student_ori_net_SmoothL1=0.870. cosine_length_loss_metric=0.380.
+[Epoch 136][Batch 99], Speed: 35.255 samples/sec,Loss_D=-0.075. Loss_G=2.768.  Loss_D_real=2.662. Loss_D_fake=2.736. train_student_ori_net_CrossEntropy=1.792. train_student_ori_net_SmoothL1=0.850. cosine_length_loss_metric=0.384.
+[Epoch 136][Batch 199], Speed: 37.630 samples/sec,Loss_D=-0.093. Loss_G=2.785.  Loss_D_real=2.653. Loss_D_fake=2.746. train_student_ori_net_CrossEntropy=1.802. train_student_ori_net_SmoothL1=0.862. cosine_length_loss_metric=0.384.
+[Epoch 137][Batch 99], Speed: 34.867 samples/sec,Loss_D=-0.020. Loss_G=2.326.  Loss_D_real=2.310. Loss_D_fake=2.330. train_student_ori_net_CrossEntropy=1.789. train_student_ori_net_SmoothL1=0.853. cosine_length_loss_metric=0.387.
+[Epoch 137][Batch 199], Speed: 37.671 samples/sec,Loss_D=-0.031. Loss_G=2.292.  Loss_D_real=2.250. Loss_D_fake=2.280. train_student_ori_net_CrossEntropy=1.787. train_student_ori_net_SmoothL1=0.850. cosine_length_loss_metric=0.385.
+[Epoch 138][Batch 99], Speed: 33.030 samples/sec,Loss_D=-0.018. Loss_G=2.408.  Loss_D_real=2.375. Loss_D_fake=2.394. train_student_ori_net_CrossEntropy=1.787. train_student_ori_net_SmoothL1=0.855. cosine_length_loss_metric=0.380.
+[Epoch 138][Batch 199], Speed: 37.491 samples/sec,Loss_D=-0.007. Loss_G=2.485.  Loss_D_real=2.454. Loss_D_fake=2.461. train_student_ori_net_CrossEntropy=1.780. train_student_ori_net_SmoothL1=0.841. cosine_length_loss_metric=0.379.
+[Epoch 139][Batch 99], Speed: 33.245 samples/sec,Loss_D=-0.050. Loss_G=2.274.  Loss_D_real=2.216. Loss_D_fake=2.266. train_student_ori_net_CrossEntropy=1.794. train_student_ori_net_SmoothL1=0.844. cosine_length_loss_metric=0.383.
+[Epoch 139][Batch 199], Speed: 37.355 samples/sec,Loss_D=-0.035. Loss_G=1.956.  Loss_D_real=1.915. Loss_D_fake=1.950. train_student_ori_net_CrossEntropy=1.808. train_student_ori_net_SmoothL1=0.854. cosine_length_loss_metric=0.384.
+[Epoch 140][Batch 99], Speed: 34.786 samples/sec,Loss_D=-0.020. Loss_G=1.563.  Loss_D_real=1.540. Loss_D_fake=1.560. train_student_ori_net_CrossEntropy=1.755. train_student_ori_net_SmoothL1=0.821. cosine_length_loss_metric=0.381.
+[Epoch 140][Batch 199], Speed: 33.313 samples/sec,Loss_D=-0.020. Loss_G=1.573.  Loss_D_real=1.550. Loss_D_fake=1.570. train_student_ori_net_CrossEntropy=1.765. train_student_ori_net_SmoothL1=0.829. cosine_length_loss_metric=0.382.
+[Epoch 141][Batch 99], Speed: 35.166 samples/sec,Loss_D=-0.023. Loss_G=1.542.  Loss_D_real=1.515. Loss_D_fake=1.538. train_student_ori_net_CrossEntropy=1.784. train_student_ori_net_SmoothL1=0.838. cosine_length_loss_metric=0.386.
+[Epoch 141][Batch 199], Speed: 34.499 samples/sec,Loss_D=-0.028. Loss_G=1.542.  Loss_D_real=1.510. Loss_D_fake=1.538. train_student_ori_net_CrossEntropy=1.775. train_student_ori_net_SmoothL1=0.837. cosine_length_loss_metric=0.387.
+[Epoch 142][Batch 99], Speed: 33.553 samples/sec,Loss_D=-0.029. Loss_G=1.400.  Loss_D_real=1.367. Loss_D_fake=1.397. train_student_ori_net_CrossEntropy=1.761. train_student_ori_net_SmoothL1=0.831. cosine_length_loss_metric=0.380.
+[Epoch 142][Batch 199], Speed: 34.699 samples/sec,Loss_D=-0.029. Loss_G=1.377.  Loss_D_real=1.345. Loss_D_fake=1.374. train_student_ori_net_CrossEntropy=1.779. train_student_ori_net_SmoothL1=0.853. cosine_length_loss_metric=0.380.
+[Epoch 143][Batch 99], Speed: 33.403 samples/sec,Loss_D=-0.027. Loss_G=1.232.  Loss_D_real=1.202. Loss_D_fake=1.229. train_student_ori_net_CrossEntropy=1.734. train_student_ori_net_SmoothL1=0.816. cosine_length_loss_metric=0.379.
+[Epoch 143][Batch 199], Speed: 35.559 samples/sec,Loss_D=-0.031. Loss_G=1.264.  Loss_D_real=1.225. Loss_D_fake=1.255. train_student_ori_net_CrossEntropy=1.748. train_student_ori_net_SmoothL1=0.825. cosine_length_loss_metric=0.380.
+[Epoch 144][Batch 99], Speed: 34.457 samples/sec,Loss_D=-0.119. Loss_G=3.191.  Loss_D_real=3.045. Loss_D_fake=3.164. train_student_ori_net_CrossEntropy=1.768. train_student_ori_net_SmoothL1=0.833. cosine_length_loss_metric=0.385.
+[Epoch 144][Batch 199], Speed: 37.460 samples/sec,Loss_D=-0.140. Loss_G=3.300.  Loss_D_real=3.117. Loss_D_fake=3.258. train_student_ori_net_CrossEntropy=1.775. train_student_ori_net_SmoothL1=0.836. cosine_length_loss_metric=0.384.
+[Epoch 145][Batch 99], Speed: 34.113 samples/sec,Loss_D=-0.134. Loss_G=3.470.  Loss_D_real=3.296. Loss_D_fake=3.430. train_student_ori_net_CrossEntropy=1.766. train_student_ori_net_SmoothL1=0.824. cosine_length_loss_metric=0.376.
+[Epoch 145][Batch 199], Speed: 34.729 samples/sec,Loss_D=-0.133. Loss_G=3.298.  Loss_D_real=3.125. Loss_D_fake=3.258. train_student_ori_net_CrossEntropy=1.756. train_student_ori_net_SmoothL1=0.822. cosine_length_loss_metric=0.379.
+[Epoch 146][Batch 99], Speed: 33.532 samples/sec,Loss_D=-0.128. Loss_G=3.157.  Loss_D_real=2.992. Loss_D_fake=3.119. train_student_ori_net_CrossEntropy=1.754. train_student_ori_net_SmoothL1=0.825. cosine_length_loss_metric=0.381.
+[Epoch 146][Batch 199], Speed: 36.770 samples/sec,Loss_D=-0.125. Loss_G=2.993.  Loss_D_real=2.827. Loss_D_fake=2.952. train_student_ori_net_CrossEntropy=1.762. train_student_ori_net_SmoothL1=0.830. cosine_length_loss_metric=0.382.
+[Epoch 147][Batch 99], Speed: 36.364 samples/sec,Loss_D=-0.122. Loss_G=2.379.  Loss_D_real=2.217. Loss_D_fake=2.339. train_student_ori_net_CrossEntropy=1.749. train_student_ori_net_SmoothL1=0.818. cosine_length_loss_metric=0.379.
+[Epoch 147][Batch 199], Speed: 36.480 samples/sec,Loss_D=-0.117. Loss_G=2.341.  Loss_D_real=2.190. Loss_D_fake=2.308. train_student_ori_net_CrossEntropy=1.760. train_student_ori_net_SmoothL1=0.829. cosine_length_loss_metric=0.381.
+[Epoch 148][Batch 99], Speed: 37.593 samples/sec,Loss_D=-0.083. Loss_G=1.904.  Loss_D_real=1.797. Loss_D_fake=1.880. train_student_ori_net_CrossEntropy=1.755. train_student_ori_net_SmoothL1=0.832. cosine_length_loss_metric=0.381.
+[Epoch 148][Batch 199], Speed: 34.053 samples/sec,Loss_D=-0.078. Loss_G=1.999.  Loss_D_real=1.897. Loss_D_fake=1.975. train_student_ori_net_CrossEntropy=1.749. train_student_ori_net_SmoothL1=0.818. cosine_length_loss_metric=0.383.
+[Epoch 149][Batch 99], Speed: 35.543 samples/sec,Loss_D=-0.055. Loss_G=2.149.  Loss_D_real=2.074. Loss_D_fake=2.129. train_student_ori_net_CrossEntropy=1.753. train_student_ori_net_SmoothL1=0.835. cosine_length_loss_metric=0.383.
+[Epoch 149][Batch 199], Speed: 37.212 samples/sec,Loss_D=-0.050. Loss_G=2.186.  Loss_D_real=2.117. Loss_D_fake=2.167. train_student_ori_net_CrossEntropy=1.761. train_student_ori_net_SmoothL1=0.834. cosine_length_loss_metric=0.385.
+[Epoch 150][Batch 99], Speed: 35.879 samples/sec,Loss_D=-0.057. Loss_G=2.550.  Loss_D_real=2.481. Loss_D_fake=2.537. train_student_ori_net_CrossEntropy=1.733. train_student_ori_net_SmoothL1=0.819. cosine_length_loss_metric=0.382.
+[Epoch 150][Batch 199], Speed: 36.699 samples/sec,Loss_D=-0.045. Loss_G=2.448.  Loss_D_real=2.392. Loss_D_fake=2.437. train_student_ori_net_CrossEntropy=1.738. train_student_ori_net_SmoothL1=0.824. cosine_length_loss_metric=0.383.
+[Epoch 151][Batch 99], Speed: 37.648 samples/sec,Loss_D=-0.028. Loss_G=2.342.  Loss_D_real=2.310. Loss_D_fake=2.337. train_student_ori_net_CrossEntropy=1.720. train_student_ori_net_SmoothL1=0.828. cosine_length_loss_metric=0.383.
+[Epoch 151][Batch 199], Speed: 37.763 samples/sec,Loss_D=-0.028. Loss_G=2.305.  Loss_D_real=2.273. Loss_D_fake=2.301. train_student_ori_net_CrossEntropy=1.729. train_student_ori_net_SmoothL1=0.826. cosine_length_loss_metric=0.385.
+[Epoch 152][Batch 99], Speed: 34.175 samples/sec,Loss_D=-0.025. Loss_G=2.284.  Loss_D_real=2.256. Loss_D_fake=2.281. train_student_ori_net_CrossEntropy=1.736. train_student_ori_net_SmoothL1=0.819. cosine_length_loss_metric=0.384.
+[Epoch 152][Batch 199], Speed: 37.733 samples/sec,Loss_D=-0.023. Loss_G=2.281.  Loss_D_real=2.255. Loss_D_fake=2.278. train_student_ori_net_CrossEntropy=1.741. train_student_ori_net_SmoothL1=0.821. cosine_length_loss_metric=0.383.
+[Epoch 153][Batch 99], Speed: 35.695 samples/sec,Loss_D=-0.020. Loss_G=2.335.  Loss_D_real=2.311. Loss_D_fake=2.332. train_student_ori_net_CrossEntropy=1.741. train_student_ori_net_SmoothL1=0.825. cosine_length_loss_metric=0.385.
+[Epoch 153][Batch 199], Speed: 37.348 samples/sec,Loss_D=-0.021. Loss_G=2.348.  Loss_D_real=2.324. Loss_D_fake=2.345. train_student_ori_net_CrossEntropy=1.746. train_student_ori_net_SmoothL1=0.823. cosine_length_loss_metric=0.385.
+[Epoch 154][Batch 99], Speed: 35.552 samples/sec,Loss_D=-0.023. Loss_G=2.273.  Loss_D_real=2.249. Loss_D_fake=2.271. train_student_ori_net_CrossEntropy=1.719. train_student_ori_net_SmoothL1=0.819. cosine_length_loss_metric=0.387.
+[Epoch 154][Batch 199], Speed: 37.849 samples/sec,Loss_D=-0.021. Loss_G=2.247.  Loss_D_real=2.224. Loss_D_fake=2.245. train_student_ori_net_CrossEntropy=1.737. train_student_ori_net_SmoothL1=0.830. cosine_length_loss_metric=0.388.
+[Epoch 155][Batch 99], Speed: 32.729 samples/sec,Loss_D=-0.021. Loss_G=2.210.  Loss_D_real=2.186. Loss_D_fake=2.207. train_student_ori_net_CrossEntropy=1.739. train_student_ori_net_SmoothL1=0.830. cosine_length_loss_metric=0.386.
+[Epoch 155][Batch 199], Speed: 34.669 samples/sec,Loss_D=-0.021. Loss_G=2.201.  Loss_D_real=2.178. Loss_D_fake=2.199. train_student_ori_net_CrossEntropy=1.733. train_student_ori_net_SmoothL1=0.823. cosine_length_loss_metric=0.386.
+[Epoch 156][Batch 99], Speed: 32.859 samples/sec,Loss_D=-0.023. Loss_G=2.076.  Loss_D_real=2.050. Loss_D_fake=2.073. train_student_ori_net_CrossEntropy=1.718. train_student_ori_net_SmoothL1=0.810. cosine_length_loss_metric=0.384.
+[Epoch 156][Batch 199], Speed: 36.741 samples/sec,Loss_D=-0.023. Loss_G=2.088.  Loss_D_real=2.062. Loss_D_fake=2.085. train_student_ori_net_CrossEntropy=1.719. train_student_ori_net_SmoothL1=0.820. cosine_length_loss_metric=0.387.
+[Epoch 157][Batch 99], Speed: 33.273 samples/sec,Loss_D=-0.019. Loss_G=1.827.  Loss_D_real=1.809. Loss_D_fake=1.828. train_student_ori_net_CrossEntropy=1.699. train_student_ori_net_SmoothL1=0.791. cosine_length_loss_metric=0.382.
+[Epoch 157][Batch 199], Speed: 37.438 samples/sec,Loss_D=-0.018. Loss_G=1.754.  Loss_D_real=1.735. Loss_D_fake=1.753. train_student_ori_net_CrossEntropy=1.696. train_student_ori_net_SmoothL1=0.791. cosine_length_loss_metric=0.384.
+[Epoch 158][Batch 99], Speed: 32.748 samples/sec,Loss_D=-0.018. Loss_G=1.850.  Loss_D_real=1.829. Loss_D_fake=1.846. train_student_ori_net_CrossEntropy=1.696. train_student_ori_net_SmoothL1=0.783. cosine_length_loss_metric=0.384.
+[Epoch 158][Batch 199], Speed: 37.908 samples/sec,Loss_D=-0.017. Loss_G=1.892.  Loss_D_real=1.871. Loss_D_fake=1.888. train_student_ori_net_CrossEntropy=1.704. train_student_ori_net_SmoothL1=0.799. cosine_length_loss_metric=0.385.
+[Epoch 159][Batch 99], Speed: 34.032 samples/sec,Loss_D=-0.016. Loss_G=2.109.  Loss_D_real=2.089. Loss_D_fake=2.105. train_student_ori_net_CrossEntropy=1.691. train_student_ori_net_SmoothL1=0.799. cosine_length_loss_metric=0.385.
+[Epoch 159][Batch 199], Speed: 35.747 samples/sec,Loss_D=-0.015. Loss_G=2.219.  Loss_D_real=2.200. Loss_D_fake=2.215. train_student_ori_net_CrossEntropy=1.702. train_student_ori_net_SmoothL1=0.803. cosine_length_loss_metric=0.384.
+[Epoch 160][Batch 99], Speed: 34.085 samples/sec,Loss_D=-0.015. Loss_G=2.763.  Loss_D_real=2.742. Loss_D_fake=2.757. train_student_ori_net_CrossEntropy=1.722. train_student_ori_net_SmoothL1=0.807. cosine_length_loss_metric=0.383.
+[Epoch 160][Batch 199], Speed: 37.319 samples/sec,Loss_D=-0.015. Loss_G=2.877.  Loss_D_real=2.858. Loss_D_fake=2.873. train_student_ori_net_CrossEntropy=1.716. train_student_ori_net_SmoothL1=0.815. cosine_length_loss_metric=0.385.
+[Epoch 161][Batch 99], Speed: 36.628 samples/sec,Loss_D=-0.014. Loss_G=3.178.  Loss_D_real=3.162. Loss_D_fake=3.175. train_student_ori_net_CrossEntropy=1.689. train_student_ori_net_SmoothL1=0.810. cosine_length_loss_metric=0.386.
+[Epoch 161][Batch 199], Speed: 34.939 samples/sec,Loss_D=-0.014. Loss_G=3.309.  Loss_D_real=3.291. Loss_D_fake=3.305. train_student_ori_net_CrossEntropy=1.694. train_student_ori_net_SmoothL1=0.798. cosine_length_loss_metric=0.385.
+[Epoch 162][Batch 99], Speed: 32.777 samples/sec,Loss_D=-0.014. Loss_G=3.861.  Loss_D_real=3.843. Loss_D_fake=3.858. train_student_ori_net_CrossEntropy=1.689. train_student_ori_net_SmoothL1=0.805. cosine_length_loss_metric=0.388.
+[Epoch 162][Batch 199], Speed: 33.700 samples/sec,Loss_D=-0.014. Loss_G=3.931.  Loss_D_real=3.913. Loss_D_fake=3.927. train_student_ori_net_CrossEntropy=1.695. train_student_ori_net_SmoothL1=0.796. cosine_length_loss_metric=0.388.
+[Epoch 163][Batch 99], Speed: 35.267 samples/sec,Loss_D=-0.013. Loss_G=4.266.  Loss_D_real=4.250. Loss_D_fake=4.263. train_student_ori_net_CrossEntropy=1.696. train_student_ori_net_SmoothL1=0.790. cosine_length_loss_metric=0.386.
+[Epoch 163][Batch 199], Speed: 35.081 samples/sec,Loss_D=-0.013. Loss_G=4.315.  Loss_D_real=4.299. Loss_D_fake=4.312. train_student_ori_net_CrossEntropy=1.685. train_student_ori_net_SmoothL1=0.791. cosine_length_loss_metric=0.386.
+[Epoch 164][Batch 99], Speed: 33.042 samples/sec,Loss_D=-0.014. Loss_G=4.654.  Loss_D_real=4.636. Loss_D_fake=4.651. train_student_ori_net_CrossEntropy=1.699. train_student_ori_net_SmoothL1=0.816. cosine_length_loss_metric=0.390.
+[Epoch 164][Batch 199], Speed: 37.931 samples/sec,Loss_D=-0.015. Loss_G=4.731.  Loss_D_real=4.713. Loss_D_fake=4.728. train_student_ori_net_CrossEntropy=1.699. train_student_ori_net_SmoothL1=0.814. cosine_length_loss_metric=0.390.
+[Epoch 165][Batch 99], Speed: 33.410 samples/sec,Loss_D=-0.016. Loss_G=4.973.  Loss_D_real=4.953. Loss_D_fake=4.969. train_student_ori_net_CrossEntropy=1.651. train_student_ori_net_SmoothL1=0.779. cosine_length_loss_metric=0.392.
+[Epoch 165][Batch 199], Speed: 35.858 samples/sec,Loss_D=-0.016. Loss_G=5.068.  Loss_D_real=5.048. Loss_D_fake=5.064. train_student_ori_net_CrossEntropy=1.665. train_student_ori_net_SmoothL1=0.789. cosine_length_loss_metric=0.391.
+[Epoch 166][Batch 99], Speed: 34.546 samples/sec,Loss_D=-0.018. Loss_G=5.296.  Loss_D_real=5.275. Loss_D_fake=5.293. train_student_ori_net_CrossEntropy=1.670. train_student_ori_net_SmoothL1=0.785. cosine_length_loss_metric=0.387.
+[Epoch 166][Batch 199], Speed: 36.096 samples/sec,Loss_D=-0.017. Loss_G=5.325.  Loss_D_real=5.306. Loss_D_fake=5.322. train_student_ori_net_CrossEntropy=1.688. train_student_ori_net_SmoothL1=0.789. cosine_length_loss_metric=0.391.
+[Epoch 167][Batch 99], Speed: 36.640 samples/sec,Loss_D=-0.016. Loss_G=5.533.  Loss_D_real=5.514. Loss_D_fake=5.530. train_student_ori_net_CrossEntropy=1.682. train_student_ori_net_SmoothL1=0.794. cosine_length_loss_metric=0.387.
+[Epoch 167][Batch 199], Speed: 36.861 samples/sec,Loss_D=-0.016. Loss_G=5.563.  Loss_D_real=5.544. Loss_D_fake=5.560. train_student_ori_net_CrossEntropy=1.675. train_student_ori_net_SmoothL1=0.794. cosine_length_loss_metric=0.389.
+[Epoch 168][Batch 99], Speed: 36.144 samples/sec,Loss_D=-0.016. Loss_G=5.701.  Loss_D_real=5.683. Loss_D_fake=5.698. train_student_ori_net_CrossEntropy=1.642. train_student_ori_net_SmoothL1=0.778. cosine_length_loss_metric=0.386.
+[Epoch 168][Batch 199], Speed: 36.336 samples/sec,Loss_D=-0.015. Loss_G=5.712.  Loss_D_real=5.694. Loss_D_fake=5.709. train_student_ori_net_CrossEntropy=1.660. train_student_ori_net_SmoothL1=0.796. cosine_length_loss_metric=0.385.
+[Epoch 169][Batch 99], Speed: 32.577 samples/sec,Loss_D=-0.016. Loss_G=5.791.  Loss_D_real=5.774. Loss_D_fake=5.789. train_student_ori_net_CrossEntropy=1.664. train_student_ori_net_SmoothL1=0.781. cosine_length_loss_metric=0.385.
+[Epoch 169][Batch 199], Speed: 37.313 samples/sec,Loss_D=-0.015. Loss_G=5.807.  Loss_D_real=5.790. Loss_D_fake=5.805. train_student_ori_net_CrossEntropy=1.667. train_student_ori_net_SmoothL1=0.783. cosine_length_loss_metric=0.389.
+[Epoch 170][Batch 99], Speed: 32.540 samples/sec,Loss_D=-0.015. Loss_G=5.875.  Loss_D_real=5.858. Loss_D_fake=5.873. train_student_ori_net_CrossEntropy=1.651. train_student_ori_net_SmoothL1=0.780. cosine_length_loss_metric=0.387.
+[Epoch 170][Batch 199], Speed: 35.677 samples/sec,Loss_D=-0.015. Loss_G=5.889.  Loss_D_real=5.872. Loss_D_fake=5.887. train_student_ori_net_CrossEntropy=1.669. train_student_ori_net_SmoothL1=0.792. cosine_length_loss_metric=0.390.
+[Epoch 171][Batch 99], Speed: 32.868 samples/sec,Loss_D=-0.015. Loss_G=5.979.  Loss_D_real=5.962. Loss_D_fake=5.977. train_student_ori_net_CrossEntropy=1.644. train_student_ori_net_SmoothL1=0.787. cosine_length_loss_metric=0.394.
+[Epoch 171][Batch 199], Speed: 37.787 samples/sec,Loss_D=-0.015. Loss_G=6.008.  Loss_D_real=5.990. Loss_D_fake=6.006. train_student_ori_net_CrossEntropy=1.659. train_student_ori_net_SmoothL1=0.778. cosine_length_loss_metric=0.392.
+[Epoch 172][Batch 99], Speed: 33.586 samples/sec,Loss_D=-0.017. Loss_G=6.132.  Loss_D_real=6.112. Loss_D_fake=6.129. train_student_ori_net_CrossEntropy=1.669. train_student_ori_net_SmoothL1=0.794. cosine_length_loss_metric=0.393.
+[Epoch 172][Batch 199], Speed: 35.138 samples/sec,Loss_D=-0.017. Loss_G=6.128.  Loss_D_real=6.109. Loss_D_fake=6.126. train_student_ori_net_CrossEntropy=1.673. train_student_ori_net_SmoothL1=0.793. cosine_length_loss_metric=0.392.
+[Epoch 173][Batch 99], Speed: 37.678 samples/sec,Loss_D=-0.017. Loss_G=6.162.  Loss_D_real=6.143. Loss_D_fake=6.160. train_student_ori_net_CrossEntropy=1.671. train_student_ori_net_SmoothL1=0.798. cosine_length_loss_metric=0.394.
+[Epoch 173][Batch 199], Speed: 37.281 samples/sec,Loss_D=-0.016. Loss_G=6.119.  Loss_D_real=6.101. Loss_D_fake=6.117. train_student_ori_net_CrossEntropy=1.673. train_student_ori_net_SmoothL1=0.796. cosine_length_loss_metric=0.392.
+[Epoch 174][Batch 99], Speed: 36.484 samples/sec,Loss_D=-0.016. Loss_G=5.911.  Loss_D_real=5.895. Loss_D_fake=5.911. train_student_ori_net_CrossEntropy=1.646. train_student_ori_net_SmoothL1=0.756. cosine_length_loss_metric=0.385.
+[Epoch 174][Batch 199], Speed: 36.611 samples/sec,Loss_D=-0.016. Loss_G=5.826.  Loss_D_real=5.809. Loss_D_fake=5.826. train_student_ori_net_CrossEntropy=1.643. train_student_ori_net_SmoothL1=0.772. cosine_length_loss_metric=0.388.
+[Epoch 175][Batch 99], Speed: 35.122 samples/sec,Loss_D=-0.016. Loss_G=5.793.  Loss_D_real=5.773. Loss_D_fake=5.790. train_student_ori_net_CrossEntropy=1.643. train_student_ori_net_SmoothL1=0.775. cosine_length_loss_metric=0.383.
+[Epoch 175][Batch 199], Speed: 37.214 samples/sec,Loss_D=-0.017. Loss_G=5.813.  Loss_D_real=5.793. Loss_D_fake=5.810. train_student_ori_net_CrossEntropy=1.656. train_student_ori_net_SmoothL1=0.783. cosine_length_loss_metric=0.384.
+[Epoch 176][Batch 99], Speed: 33.044 samples/sec,Loss_D=-0.015. Loss_G=5.902.  Loss_D_real=5.885. Loss_D_fake=5.899. train_student_ori_net_CrossEntropy=1.657. train_student_ori_net_SmoothL1=0.785. cosine_length_loss_metric=0.388.
+[Epoch 176][Batch 199], Speed: 37.102 samples/sec,Loss_D=-0.015. Loss_G=5.907.  Loss_D_real=5.890. Loss_D_fake=5.904. train_student_ori_net_CrossEntropy=1.652. train_student_ori_net_SmoothL1=0.778. cosine_length_loss_metric=0.389.
+[Epoch 177][Batch 99], Speed: 32.680 samples/sec,Loss_D=-0.015. Loss_G=6.049.  Loss_D_real=6.031. Loss_D_fake=6.046. train_student_ori_net_CrossEntropy=1.633. train_student_ori_net_SmoothL1=0.778. cosine_length_loss_metric=0.386.
+[Epoch 177][Batch 199], Speed: 37.667 samples/sec,Loss_D=-0.015. Loss_G=6.055.  Loss_D_real=6.038. Loss_D_fake=6.053. train_student_ori_net_CrossEntropy=1.646. train_student_ori_net_SmoothL1=0.786. cosine_length_loss_metric=0.387.
+[Epoch 178][Batch 99], Speed: 34.937 samples/sec,Loss_D=-0.015. Loss_G=6.105.  Loss_D_real=6.088. Loss_D_fake=6.103. train_student_ori_net_CrossEntropy=1.620. train_student_ori_net_SmoothL1=0.761. cosine_length_loss_metric=0.387.
+[Epoch 178][Batch 199], Speed: 34.234 samples/sec,Loss_D=-0.015. Loss_G=6.123.  Loss_D_real=6.105. Loss_D_fake=6.120. train_student_ori_net_CrossEntropy=1.630. train_student_ori_net_SmoothL1=0.770. cosine_length_loss_metric=0.387.
+[Epoch 179][Batch 99], Speed: 34.774 samples/sec,Loss_D=-0.016. Loss_G=6.183.  Loss_D_real=6.165. Loss_D_fake=6.181. train_student_ori_net_CrossEntropy=1.631. train_student_ori_net_SmoothL1=0.770. cosine_length_loss_metric=0.385.
+[Epoch 179][Batch 199], Speed: 34.143 samples/sec,Loss_D=-0.016. Loss_G=6.195.  Loss_D_real=6.178. Loss_D_fake=6.193. train_student_ori_net_CrossEntropy=1.655. train_student_ori_net_SmoothL1=0.777. cosine_length_loss_metric=0.389.
+[Epoch 180][Batch 99], Speed: 33.927 samples/sec,Loss_D=-0.049. Loss_G=6.270.  Loss_D_real=6.220. Loss_D_fake=6.268. train_student_ori_net_CrossEntropy=1.592. train_student_ori_net_SmoothL1=0.756. cosine_length_loss_metric=0.389.
+[Epoch 180][Batch 199], Speed: 35.761 samples/sec,Loss_D=-0.052. Loss_G=6.271.  Loss_D_real=6.217. Loss_D_fake=6.269. train_student_ori_net_CrossEntropy=1.577. train_student_ori_net_SmoothL1=0.748. cosine_length_loss_metric=0.387.
+[Epoch 181][Batch 99], Speed: 36.414 samples/sec,Loss_D=-0.056. Loss_G=6.273.  Loss_D_real=6.216. Loss_D_fake=6.272. train_student_ori_net_CrossEntropy=1.531. train_student_ori_net_SmoothL1=0.726. cosine_length_loss_metric=0.386.
+[Epoch 181][Batch 199], Speed: 36.344 samples/sec,Loss_D=-0.055. Loss_G=6.273.  Loss_D_real=6.217. Loss_D_fake=6.272. train_student_ori_net_CrossEntropy=1.517. train_student_ori_net_SmoothL1=0.719. cosine_length_loss_metric=0.385.
+[Epoch 182][Batch 99], Speed: 35.092 samples/sec,Loss_D=-0.054. Loss_G=6.271.  Loss_D_real=6.216. Loss_D_fake=6.270. train_student_ori_net_CrossEntropy=1.497. train_student_ori_net_SmoothL1=0.714. cosine_length_loss_metric=0.385.
+[Epoch 182][Batch 199], Speed: 33.167 samples/sec,Loss_D=-0.054. Loss_G=6.265.  Loss_D_real=6.210. Loss_D_fake=6.264. train_student_ori_net_CrossEntropy=1.504. train_student_ori_net_SmoothL1=0.718. cosine_length_loss_metric=0.382.
+[Epoch 183][Batch 99], Speed: 32.282 samples/sec,Loss_D=-0.054. Loss_G=6.245.  Loss_D_real=6.189. Loss_D_fake=6.243. train_student_ori_net_CrossEntropy=1.508. train_student_ori_net_SmoothL1=0.716. cosine_length_loss_metric=0.384.
+[Epoch 183][Batch 199], Speed: 35.209 samples/sec,Loss_D=-0.053. Loss_G=6.244.  Loss_D_real=6.189. Loss_D_fake=6.242. train_student_ori_net_CrossEntropy=1.499. train_student_ori_net_SmoothL1=0.712. cosine_length_loss_metric=0.384.
+[Epoch 184][Batch 99], Speed: 33.701 samples/sec,Loss_D=-0.052. Loss_G=6.266.  Loss_D_real=6.212. Loss_D_fake=6.264. train_student_ori_net_CrossEntropy=1.490. train_student_ori_net_SmoothL1=0.712. cosine_length_loss_metric=0.380.
+[Epoch 184][Batch 199], Speed: 36.700 samples/sec,Loss_D=-0.053. Loss_G=6.271.  Loss_D_real=6.217. Loss_D_fake=6.269. train_student_ori_net_CrossEntropy=1.504. train_student_ori_net_SmoothL1=0.714. cosine_length_loss_metric=0.382.
+[Epoch 185][Batch 99], Speed: 33.341 samples/sec,Loss_D=-0.054. Loss_G=6.261.  Loss_D_real=6.206. Loss_D_fake=6.259. train_student_ori_net_CrossEntropy=1.497. train_student_ori_net_SmoothL1=0.709. cosine_length_loss_metric=0.381.
+[Epoch 185][Batch 199], Speed: 36.167 samples/sec,Loss_D=-0.054. Loss_G=6.259.  Loss_D_real=6.204. Loss_D_fake=6.258. train_student_ori_net_CrossEntropy=1.509. train_student_ori_net_SmoothL1=0.716. cosine_length_loss_metric=0.381.
+[Epoch 186][Batch 99], Speed: 33.362 samples/sec,Loss_D=-0.055. Loss_G=6.258.  Loss_D_real=6.201. Loss_D_fake=6.256. train_student_ori_net_CrossEntropy=1.490. train_student_ori_net_SmoothL1=0.705. cosine_length_loss_metric=0.379.
+[Epoch 186][Batch 199], Speed: 36.380 samples/sec,Loss_D=-0.055. Loss_G=6.255.  Loss_D_real=6.199. Loss_D_fake=6.254. train_student_ori_net_CrossEntropy=1.487. train_student_ori_net_SmoothL1=0.704. cosine_length_loss_metric=0.381.
+[Epoch 187][Batch 99], Speed: 33.338 samples/sec,Loss_D=-0.054. Loss_G=6.255.  Loss_D_real=6.199. Loss_D_fake=6.253. train_student_ori_net_CrossEntropy=1.440. train_student_ori_net_SmoothL1=0.688. cosine_length_loss_metric=0.382.
+[Epoch 187][Batch 199], Speed: 32.839 samples/sec,Loss_D=-0.055. Loss_G=6.255.  Loss_D_real=6.199. Loss_D_fake=6.253. train_student_ori_net_CrossEntropy=1.460. train_student_ori_net_SmoothL1=0.701. cosine_length_loss_metric=0.382.
+[Epoch 188][Batch 99], Speed: 37.219 samples/sec,Loss_D=-0.055. Loss_G=6.250.  Loss_D_real=6.193. Loss_D_fake=6.248. train_student_ori_net_CrossEntropy=1.472. train_student_ori_net_SmoothL1=0.710. cosine_length_loss_metric=0.381.
+[Epoch 188][Batch 199], Speed: 37.821 samples/sec,Loss_D=-0.055. Loss_G=6.248.  Loss_D_real=6.192. Loss_D_fake=6.246. train_student_ori_net_CrossEntropy=1.459. train_student_ori_net_SmoothL1=0.701. cosine_length_loss_metric=0.378.
+[Epoch 189][Batch 99], Speed: 35.860 samples/sec,Loss_D=-0.055. Loss_G=6.245.  Loss_D_real=6.189. Loss_D_fake=6.243. train_student_ori_net_CrossEntropy=1.475. train_student_ori_net_SmoothL1=0.696. cosine_length_loss_metric=0.374.
+[Epoch 189][Batch 199], Speed: 35.544 samples/sec,Loss_D=-0.054. Loss_G=6.247.  Loss_D_real=6.191. Loss_D_fake=6.245. train_student_ori_net_CrossEntropy=1.461. train_student_ori_net_SmoothL1=0.691. cosine_length_loss_metric=0.376.
+[Epoch 190][Batch 99], Speed: 36.244 samples/sec,Loss_D=-0.054. Loss_G=6.264.  Loss_D_real=6.209. Loss_D_fake=6.262. train_student_ori_net_CrossEntropy=1.459. train_student_ori_net_SmoothL1=0.690. cosine_length_loss_metric=0.378.
+[Epoch 190][Batch 199], Speed: 33.928 samples/sec,Loss_D=-0.054. Loss_G=6.267.  Loss_D_real=6.212. Loss_D_fake=6.266. train_student_ori_net_CrossEntropy=1.457. train_student_ori_net_SmoothL1=0.690. cosine_length_loss_metric=0.378.
+[Epoch 191][Batch 99], Speed: 33.542 samples/sec,Loss_D=-0.053. Loss_G=6.276.  Loss_D_real=6.221. Loss_D_fake=6.274. train_student_ori_net_CrossEntropy=1.453. train_student_ori_net_SmoothL1=0.687. cosine_length_loss_metric=0.377.
+[Epoch 191][Batch 199], Speed: 36.541 samples/sec,Loss_D=-0.053. Loss_G=6.279.  Loss_D_real=6.224. Loss_D_fake=6.277. train_student_ori_net_CrossEntropy=1.441. train_student_ori_net_SmoothL1=0.683. cosine_length_loss_metric=0.377.
+[Epoch 192][Batch 99], Speed: 32.585 samples/sec,Loss_D=-0.055. Loss_G=6.293.  Loss_D_real=6.236. Loss_D_fake=6.291. train_student_ori_net_CrossEntropy=1.442. train_student_ori_net_SmoothL1=0.678. cosine_length_loss_metric=0.376.
+[Epoch 192][Batch 199], Speed: 34.612 samples/sec,Loss_D=-0.056. Loss_G=6.289.  Loss_D_real=6.232. Loss_D_fake=6.287. train_student_ori_net_CrossEntropy=1.438. train_student_ori_net_SmoothL1=0.678. cosine_length_loss_metric=0.376.
+[Epoch 193][Batch 99], Speed: 33.471 samples/sec,Loss_D=-0.055. Loss_G=6.281.  Loss_D_real=6.224. Loss_D_fake=6.279. train_student_ori_net_CrossEntropy=1.419. train_student_ori_net_SmoothL1=0.672. cosine_length_loss_metric=0.378.
+[Epoch 193][Batch 199], Speed: 33.497 samples/sec,Loss_D=-0.055. Loss_G=6.284.  Loss_D_real=6.227. Loss_D_fake=6.283. train_student_ori_net_CrossEntropy=1.437. train_student_ori_net_SmoothL1=0.681. cosine_length_loss_metric=0.378.
+[Epoch 194][Batch 99], Speed: 37.189 samples/sec,Loss_D=-0.054. Loss_G=6.288.  Loss_D_real=6.232. Loss_D_fake=6.286. train_student_ori_net_CrossEntropy=1.455. train_student_ori_net_SmoothL1=0.694. cosine_length_loss_metric=0.376.
+[Epoch 194][Batch 199], Speed: 33.372 samples/sec,Loss_D=-0.054. Loss_G=6.288.  Loss_D_real=6.231. Loss_D_fake=6.286. train_student_ori_net_CrossEntropy=1.452. train_student_ori_net_SmoothL1=0.688. cosine_length_loss_metric=0.376.
+[Epoch 195][Batch 99], Speed: 35.295 samples/sec,Loss_D=-0.055. Loss_G=6.283.  Loss_D_real=6.226. Loss_D_fake=6.281. train_student_ori_net_CrossEntropy=1.436. train_student_ori_net_SmoothL1=0.675. cosine_length_loss_metric=0.373.
+[Epoch 195][Batch 199], Speed: 37.244 samples/sec,Loss_D=-0.055. Loss_G=6.279.  Loss_D_real=6.222. Loss_D_fake=6.277. train_student_ori_net_CrossEntropy=1.427. train_student_ori_net_SmoothL1=0.674. cosine_length_loss_metric=0.375.
+[Epoch 196][Batch 99], Speed: 34.242 samples/sec,Loss_D=-0.054. Loss_G=6.266.  Loss_D_real=6.210. Loss_D_fake=6.264. train_student_ori_net_CrossEntropy=1.417. train_student_ori_net_SmoothL1=0.672. cosine_length_loss_metric=0.376.
+[Epoch 196][Batch 199], Speed: 36.699 samples/sec,Loss_D=-0.054. Loss_G=6.264.  Loss_D_real=6.207. Loss_D_fake=6.262. train_student_ori_net_CrossEntropy=1.417. train_student_ori_net_SmoothL1=0.675. cosine_length_loss_metric=0.375.
+[Epoch 197][Batch 99], Speed: 33.597 samples/sec,Loss_D=-0.055. Loss_G=6.261.  Loss_D_real=6.204. Loss_D_fake=6.259. train_student_ori_net_CrossEntropy=1.437. train_student_ori_net_SmoothL1=0.681. cosine_length_loss_metric=0.374.
+[Epoch 197][Batch 199], Speed: 37.587 samples/sec,Loss_D=-0.055. Loss_G=6.261.  Loss_D_real=6.204. Loss_D_fake=6.259. train_student_ori_net_CrossEntropy=1.444. train_student_ori_net_SmoothL1=0.684. cosine_length_loss_metric=0.372.
+[Epoch 198][Batch 99], Speed: 33.742 samples/sec,Loss_D=-0.054. Loss_G=6.258.  Loss_D_real=6.202. Loss_D_fake=6.256. train_student_ori_net_CrossEntropy=1.451. train_student_ori_net_SmoothL1=0.678. cosine_length_loss_metric=0.373.
+[Epoch 198][Batch 199], Speed: 37.822 samples/sec,Loss_D=-0.054. Loss_G=6.257.  Loss_D_real=6.201. Loss_D_fake=6.255. train_student_ori_net_CrossEntropy=1.437. train_student_ori_net_SmoothL1=0.674. cosine_length_loss_metric=0.374.
+[Epoch 199][Batch 99], Speed: 37.577 samples/sec,Loss_D=-0.054. Loss_G=6.261.  Loss_D_real=6.205. Loss_D_fake=6.259. train_student_ori_net_CrossEntropy=1.427. train_student_ori_net_SmoothL1=0.680. cosine_length_loss_metric=0.377.
+[Epoch 199][Batch 199], Speed: 34.092 samples/sec,Loss_D=-0.054. Loss_G=6.267.  Loss_D_real=6.211. Loss_D_fake=6.265. train_student_ori_net_CrossEntropy=1.430. train_student_ori_net_SmoothL1=0.675. cosine_length_loss_metric=0.377.
+[Epoch 200][Batch 99], Speed: 35.598 samples/sec,Loss_D=-0.053. Loss_G=6.276.  Loss_D_real=6.221. Loss_D_fake=6.274. train_student_ori_net_CrossEntropy=1.417. train_student_ori_net_SmoothL1=0.664. cosine_length_loss_metric=0.373.
+[Epoch 200][Batch 199], Speed: 36.667 samples/sec,Loss_D=-0.054. Loss_G=6.277.  Loss_D_real=6.221. Loss_D_fake=6.275. train_student_ori_net_CrossEntropy=1.413. train_student_ori_net_SmoothL1=0.664. cosine_length_loss_metric=0.374.
+[Epoch 201][Batch 99], Speed: 34.881 samples/sec,Loss_D=-0.054. Loss_G=6.265.  Loss_D_real=6.209. Loss_D_fake=6.263. train_student_ori_net_CrossEntropy=1.415. train_student_ori_net_SmoothL1=0.672. cosine_length_loss_metric=0.373.
+[Epoch 201][Batch 199], Speed: 33.729 samples/sec,Loss_D=-0.054. Loss_G=6.262.  Loss_D_real=6.206. Loss_D_fake=6.260. train_student_ori_net_CrossEntropy=1.412. train_student_ori_net_SmoothL1=0.676. cosine_length_loss_metric=0.373.
+[Epoch 202][Batch 99], Speed: 32.212 samples/sec,Loss_D=-0.054. Loss_G=6.264.  Loss_D_real=6.207. Loss_D_fake=6.261. train_student_ori_net_CrossEntropy=1.421. train_student_ori_net_SmoothL1=0.674. cosine_length_loss_metric=0.376.
+[Epoch 202][Batch 199], Speed: 35.724 samples/sec,Loss_D=-0.054. Loss_G=6.263.  Loss_D_real=6.207. Loss_D_fake=6.261. train_student_ori_net_CrossEntropy=1.421. train_student_ori_net_SmoothL1=0.669. cosine_length_loss_metric=0.376.
+[Epoch 203][Batch 99], Speed: 33.531 samples/sec,Loss_D=-0.053. Loss_G=6.266.  Loss_D_real=6.211. Loss_D_fake=6.264. train_student_ori_net_CrossEntropy=1.433. train_student_ori_net_SmoothL1=0.672. cosine_length_loss_metric=0.371.
+[Epoch 203][Batch 199], Speed: 36.629 samples/sec,Loss_D=-0.053. Loss_G=6.270.  Loss_D_real=6.214. Loss_D_fake=6.267. train_student_ori_net_CrossEntropy=1.425. train_student_ori_net_SmoothL1=0.669. cosine_length_loss_metric=0.372.
+[Epoch 204][Batch 99], Speed: 32.735 samples/sec,Loss_D=-0.054. Loss_G=6.277.  Loss_D_real=6.221. Loss_D_fake=6.275. train_student_ori_net_CrossEntropy=1.398. train_student_ori_net_SmoothL1=0.668. cosine_length_loss_metric=0.371.
+[Epoch 204][Batch 199], Speed: 37.096 samples/sec,Loss_D=-0.054. Loss_G=6.276.  Loss_D_real=6.219. Loss_D_fake=6.274. train_student_ori_net_CrossEntropy=1.407. train_student_ori_net_SmoothL1=0.657. cosine_length_loss_metric=0.373.
+[Epoch 205][Batch 99], Speed: 34.599 samples/sec,Loss_D=-0.057. Loss_G=6.276.  Loss_D_real=6.216. Loss_D_fake=6.273. train_student_ori_net_CrossEntropy=1.424. train_student_ori_net_SmoothL1=0.681. cosine_length_loss_metric=0.371.
+[Epoch 205][Batch 199], Speed: 37.277 samples/sec,Loss_D=-0.057. Loss_G=6.271.  Loss_D_real=6.212. Loss_D_fake=6.269. train_student_ori_net_CrossEntropy=1.425. train_student_ori_net_SmoothL1=0.677. cosine_length_loss_metric=0.372.
+[Epoch 206][Batch 99], Speed: 33.256 samples/sec,Loss_D=-0.061. Loss_G=6.282.  Loss_D_real=6.219. Loss_D_fake=6.280. train_student_ori_net_CrossEntropy=1.409. train_student_ori_net_SmoothL1=0.666. cosine_length_loss_metric=0.378.
+[Epoch 206][Batch 199], Speed: 37.425 samples/sec,Loss_D=-0.060. Loss_G=6.280.  Loss_D_real=6.218. Loss_D_fake=6.278. train_student_ori_net_CrossEntropy=1.413. train_student_ori_net_SmoothL1=0.677. cosine_length_loss_metric=0.377.
+[Epoch 207][Batch 99], Speed: 36.851 samples/sec,Loss_D=-0.057. Loss_G=6.282.  Loss_D_real=6.223. Loss_D_fake=6.280. train_student_ori_net_CrossEntropy=1.417. train_student_ori_net_SmoothL1=0.677. cosine_length_loss_metric=0.374.
+[Epoch 207][Batch 199], Speed: 35.824 samples/sec,Loss_D=-0.057. Loss_G=6.284.  Loss_D_real=6.224. Loss_D_fake=6.282. train_student_ori_net_CrossEntropy=1.429. train_student_ori_net_SmoothL1=0.680. cosine_length_loss_metric=0.375.
+[Epoch 208][Batch 99], Speed: 33.095 samples/sec,Loss_D=-0.058. Loss_G=6.288.  Loss_D_real=6.227. Loss_D_fake=6.286. train_student_ori_net_CrossEntropy=1.406. train_student_ori_net_SmoothL1=0.659. cosine_length_loss_metric=0.374.
+[Epoch 208][Batch 199], Speed: 36.477 samples/sec,Loss_D=-0.058. Loss_G=6.290.  Loss_D_real=6.229. Loss_D_fake=6.288. train_student_ori_net_CrossEntropy=1.408. train_student_ori_net_SmoothL1=0.665. cosine_length_loss_metric=0.375.
+[Epoch 209][Batch 99], Speed: 33.988 samples/sec,Loss_D=-0.059. Loss_G=6.294.  Loss_D_real=6.233. Loss_D_fake=6.292. train_student_ori_net_CrossEntropy=1.426. train_student_ori_net_SmoothL1=0.661. cosine_length_loss_metric=0.376.
+[Epoch 209][Batch 199], Speed: 37.384 samples/sec,Loss_D=-0.059. Loss_G=6.295.  Loss_D_real=6.234. Loss_D_fake=6.292. train_student_ori_net_CrossEntropy=1.411. train_student_ori_net_SmoothL1=0.663. cosine_length_loss_metric=0.377.
+[Epoch 210][Batch 99], Speed: 33.395 samples/sec,Loss_D=-0.067. Loss_G=6.304.  Loss_D_real=6.236. Loss_D_fake=6.303. train_student_ori_net_CrossEntropy=1.408. train_student_ori_net_SmoothL1=0.669. cosine_length_loss_metric=0.372.
+[Epoch 210][Batch 199], Speed: 34.010 samples/sec,Loss_D=-0.069. Loss_G=6.305.  Loss_D_real=6.236. Loss_D_fake=6.305. train_student_ori_net_CrossEntropy=1.420. train_student_ori_net_SmoothL1=0.669. cosine_length_loss_metric=0.374.
+[Epoch 211][Batch 99], Speed: 32.997 samples/sec,Loss_D=-0.075. Loss_G=6.309.  Loss_D_real=6.233. Loss_D_fake=6.308. train_student_ori_net_CrossEntropy=1.415. train_student_ori_net_SmoothL1=0.674. cosine_length_loss_metric=0.372.
+[Epoch 211][Batch 199], Speed: 37.072 samples/sec,Loss_D=-0.076. Loss_G=6.309.  Loss_D_real=6.233. Loss_D_fake=6.309. train_student_ori_net_CrossEntropy=1.415. train_student_ori_net_SmoothL1=0.667. cosine_length_loss_metric=0.375.
+[Epoch 212][Batch 99], Speed: 33.819 samples/sec,Loss_D=-0.080. Loss_G=6.312.  Loss_D_real=6.232. Loss_D_fake=6.311. train_student_ori_net_CrossEntropy=1.426. train_student_ori_net_SmoothL1=0.681. cosine_length_loss_metric=0.374.
+[Epoch 212][Batch 199], Speed: 37.890 samples/sec,Loss_D=-0.080. Loss_G=6.312.  Loss_D_real=6.231. Loss_D_fake=6.311. train_student_ori_net_CrossEntropy=1.405. train_student_ori_net_SmoothL1=0.669. cosine_length_loss_metric=0.374.
+[Epoch 213][Batch 99], Speed: 33.089 samples/sec,Loss_D=-0.082. Loss_G=6.312.  Loss_D_real=6.230. Loss_D_fake=6.312. train_student_ori_net_CrossEntropy=1.404. train_student_ori_net_SmoothL1=0.663. cosine_length_loss_metric=0.372.
+[Epoch 213][Batch 199], Speed: 36.155 samples/sec,Loss_D=-0.083. Loss_G=6.313.  Loss_D_real=6.230. Loss_D_fake=6.312. train_student_ori_net_CrossEntropy=1.395. train_student_ori_net_SmoothL1=0.663. cosine_length_loss_metric=0.372.
+[Epoch 214][Batch 99], Speed: 33.170 samples/sec,Loss_D=-0.085. Loss_G=6.313.  Loss_D_real=6.228. Loss_D_fake=6.313. train_student_ori_net_CrossEntropy=1.414. train_student_ori_net_SmoothL1=0.673. cosine_length_loss_metric=0.369.
+[Epoch 214][Batch 199], Speed: 35.506 samples/sec,Loss_D=-0.085. Loss_G=6.313.  Loss_D_real=6.227. Loss_D_fake=6.312. train_student_ori_net_CrossEntropy=1.410. train_student_ori_net_SmoothL1=0.674. cosine_length_loss_metric=0.372.
+[Epoch 215][Batch 99], Speed: 37.578 samples/sec,Loss_D=-0.086. Loss_G=6.312.  Loss_D_real=6.225. Loss_D_fake=6.311. train_student_ori_net_CrossEntropy=1.395. train_student_ori_net_SmoothL1=0.655. cosine_length_loss_metric=0.376.
+[Epoch 215][Batch 199], Speed: 37.588 samples/sec,Loss_D=-0.086. Loss_G=6.312.  Loss_D_real=6.225. Loss_D_fake=6.311. train_student_ori_net_CrossEntropy=1.399. train_student_ori_net_SmoothL1=0.661. cosine_length_loss_metric=0.375.
+[Epoch 216][Batch 99], Speed: 36.856 samples/sec,Loss_D=-0.087. Loss_G=6.312.  Loss_D_real=6.224. Loss_D_fake=6.311. train_student_ori_net_CrossEntropy=1.401. train_student_ori_net_SmoothL1=0.666. cosine_length_loss_metric=0.376.
+[Epoch 216][Batch 199], Speed: 34.510 samples/sec,Loss_D=-0.088. Loss_G=6.312.  Loss_D_real=6.224. Loss_D_fake=6.312. train_student_ori_net_CrossEntropy=1.388. train_student_ori_net_SmoothL1=0.661. cosine_length_loss_metric=0.374.
+[Epoch 217][Batch 99], Speed: 32.683 samples/sec,Loss_D=-0.089. Loss_G=6.312.  Loss_D_real=6.223. Loss_D_fake=6.312. train_student_ori_net_CrossEntropy=1.405. train_student_ori_net_SmoothL1=0.666. cosine_length_loss_metric=0.374.
+[Epoch 217][Batch 199], Speed: 35.084 samples/sec,Loss_D=-0.089. Loss_G=6.312.  Loss_D_real=6.223. Loss_D_fake=6.311. train_student_ori_net_CrossEntropy=1.409. train_student_ori_net_SmoothL1=0.664. cosine_length_loss_metric=0.373.
+[Epoch 218][Batch 99], Speed: 34.360 samples/sec,Loss_D=-0.089. Loss_G=6.313.  Loss_D_real=6.224. Loss_D_fake=6.312. train_student_ori_net_CrossEntropy=1.399. train_student_ori_net_SmoothL1=0.676. cosine_length_loss_metric=0.373.
+[Epoch 218][Batch 199], Speed: 33.067 samples/sec,Loss_D=-0.089. Loss_G=6.313.  Loss_D_real=6.224. Loss_D_fake=6.312. train_student_ori_net_CrossEntropy=1.395. train_student_ori_net_SmoothL1=0.665. cosine_length_loss_metric=0.372.
+[Epoch 219][Batch 99], Speed: 33.170 samples/sec,Loss_D=-0.089. Loss_G=6.313.  Loss_D_real=6.223. Loss_D_fake=6.312. train_student_ori_net_CrossEntropy=1.404. train_student_ori_net_SmoothL1=0.650. cosine_length_loss_metric=0.369.
+[Epoch 219][Batch 199], Speed: 36.462 samples/sec,Loss_D=-0.089. Loss_G=6.314.  Loss_D_real=6.224. Loss_D_fake=6.313. train_student_ori_net_CrossEntropy=1.402. train_student_ori_net_SmoothL1=0.664. cosine_length_loss_metric=0.372.
+[Epoch 220][Batch 99], Speed: 33.585 samples/sec,Loss_D=-0.090. Loss_G=6.315.  Loss_D_real=6.224. Loss_D_fake=6.314. train_student_ori_net_CrossEntropy=1.395. train_student_ori_net_SmoothL1=0.662. cosine_length_loss_metric=0.375.
+[Epoch 220][Batch 199], Speed: 36.383 samples/sec,Loss_D=-0.090. Loss_G=6.315.  Loss_D_real=6.225. Loss_D_fake=6.315. train_student_ori_net_CrossEntropy=1.391. train_student_ori_net_SmoothL1=0.655. cosine_length_loss_metric=0.375.
+[Epoch 221][Batch 99], Speed: 33.913 samples/sec,Loss_D=-0.091. Loss_G=6.315.  Loss_D_real=6.224. Loss_D_fake=6.314. train_student_ori_net_CrossEntropy=1.393. train_student_ori_net_SmoothL1=0.667. cosine_length_loss_metric=0.374.
+[Epoch 221][Batch 199], Speed: 36.741 samples/sec,Loss_D=-0.091. Loss_G=6.315.  Loss_D_real=6.223. Loss_D_fake=6.314. train_student_ori_net_CrossEntropy=1.388. train_student_ori_net_SmoothL1=0.659. cosine_length_loss_metric=0.374.
+[Epoch 221], Speed: 398863.976 samples/sec,Loss_D=-0.091. Loss_G=6.315.Loss_D_real=6.223. Loss_D_fake=6.314. train_student_ori_net_CrossEntropy=1.381. train_student_ori_net_SmoothL1=0.655.
+[Epoch 221] StudentNet Validation: 
+aeroplane=0.8235239077265817
+bicycle=0.8728220176844355
+bird=0.7847633876369787
+boat=0.6919352619270568
+bottle=0.5547643727116894
+bus=0.8671766755711466
+car=0.8714693195039065
+cat=0.8771119665484035
+chair=0.6185376941706785
+cow=0.8292188620811924
+diningtable=0.7323023002218295
+dog=0.8449403944667139
+horse=0.8764246969551789
+motorbike=0.8690619247146952
+person=0.7925228486537663
+pottedplant=0.5142593859877473
+sheep=0.8056377961651434
+sofa=0.799273622209713
+train=0.8667924323902243
+tvmonitor=0.7615749075951328
+mAP=0.7827056887461108
+[Epoch 1][Batch 99], Speed: 57.066 samples/sec,Loss_D=nan. Loss_G=nan.  Loss_D_real=nan. Loss_D_fake=nan. train_student_ori_net_CrossEntropy=1.376. train_student_ori_net_SmoothL1=0.670.
+[Epoch 1][Batch 199], Speed: 57.084 samples/sec,Loss_D=nan. Loss_G=nan.  Loss_D_real=nan. Loss_D_fake=nan. train_student_ori_net_CrossEntropy=1.372. train_student_ori_net_SmoothL1=0.660.
+[Epoch 1], Speed: 455747.803 samples/sec,Loss_D=nan. Loss_G=nan.Loss_D_real=nan. Loss_D_fake=nan. train_student_ori_net_CrossEntropy=1.378. train_student_ori_net_SmoothL1=0.660.
+[Epoch 1] StudentNet Validation: 
+aeroplane=0.8262457765762087
+bicycle=0.8704380421535298
+bird=0.7837132271482742
+boat=0.6904704419851375
+bottle=0.5435912622500022
+bus=0.8709061563884769
+car=0.8670717875094605
+cat=0.8733344667376224
+chair=0.6231261100539429
+cow=0.8333620585502147
+diningtable=0.7403617446301639
+dog=0.8483187140158053
+horse=0.8761199671832754
+motorbike=0.8685162478999545
+person=0.7923854456348496
+pottedplant=0.5095766065249269
+sheep=0.8042791850685963
+sofa=0.7998191982630571
+train=0.857917061151543
+tvmonitor=0.760630235249197
+mAP=0.782009186748712
+best_map is 0.782009186748712
+[Epoch 2][Batch 99], Speed: 57.797 samples/sec,Loss_D=nan. Loss_G=nan.  Loss_D_real=nan. Loss_D_fake=nan. train_student_ori_net_CrossEntropy=1.358. train_student_ori_net_SmoothL1=0.644.
+[Epoch 2][Batch 199], Speed: 57.429 samples/sec,Loss_D=nan. Loss_G=nan.  Loss_D_real=nan. Loss_D_fake=nan. train_student_ori_net_CrossEntropy=1.370. train_student_ori_net_SmoothL1=0.644.
+[Epoch 2], Speed: 1383687.918 samples/sec,Loss_D=nan. Loss_G=nan.Loss_D_real=nan. Loss_D_fake=nan. train_student_ori_net_CrossEntropy=1.372. train_student_ori_net_SmoothL1=0.643.
+[Epoch 2] StudentNet Validation: 
+aeroplane=0.8198229477044241
+bicycle=0.8657015467580543
+bird=0.7840031600964363
+boat=0.6915230348584813
+bottle=0.5510571997901011
+bus=0.8637937608604931
+car=0.8674306810184956
+cat=0.8722784539303353
+chair=0.6168827892673199
+cow=0.8313548853066265
+diningtable=0.7309677949047124
+dog=0.8454823428559125
+horse=0.8754456356562936
+motorbike=0.8688058212086118
+person=0.795047161096784
+pottedplant=0.5115871302623564
+sheep=0.7960628645227653
+sofa=0.7974071271905787
+train=0.8537371016724427
+tvmonitor=0.7657246808464087
+mAP=0.7802058059903817
+best_map is 0.782009186748712
+[Epoch 3][Batch 99], Speed: 57.358 samples/sec,Loss_D=nan. Loss_G=nan.  Loss_D_real=nan. Loss_D_fake=nan. train_student_ori_net_CrossEntropy=1.379. train_student_ori_net_SmoothL1=0.652.
+[Epoch 3][Batch 199], Speed: 57.074 samples/sec,Loss_D=nan. Loss_G=nan.  Loss_D_real=nan. Loss_D_fake=nan. train_student_ori_net_CrossEntropy=1.382. train_student_ori_net_SmoothL1=0.656.
+[Epoch 3], Speed: 1777718.252 samples/sec,Loss_D=nan. Loss_G=nan.Loss_D_real=nan. Loss_D_fake=nan. train_student_ori_net_CrossEntropy=1.392. train_student_ori_net_SmoothL1=0.661.
+[Epoch 3] StudentNet Validation: 
+aeroplane=0.8154246502619136
+bicycle=0.86654877796812
+bird=0.7839440820481389
+boat=0.6876010711788412
+bottle=0.5523236034847168
+bus=0.8658965036480363
+car=0.8690297052029248
+cat=0.8769694219126818
+chair=0.6165453664556673
+cow=0.8349013543799473
+diningtable=0.7345488957356642
+dog=0.8487249544119376
+horse=0.8755356541834612
+motorbike=0.8662668496288164
+person=0.7931927006257125
+pottedplant=0.5084814677084823
+sheep=0.797867746611895
+sofa=0.7957769072415699
+train=0.8514223197893576
+tvmonitor=0.760918814563489
+mAP=0.7800960423520685
+best_map is 0.782009186748712
+[Epoch 4][Batch 99], Speed: 56.695 samples/sec,Loss_D=nan. Loss_G=nan.  Loss_D_real=nan. Loss_D_fake=nan. train_student_ori_net_CrossEntropy=1.381. train_student_ori_net_SmoothL1=0.659.
+[Epoch 4][Batch 199], Speed: 57.392 samples/sec,Loss_D=nan. Loss_G=nan.  Loss_D_real=nan. Loss_D_fake=nan. train_student_ori_net_CrossEntropy=1.395. train_student_ori_net_SmoothL1=0.673.
+[Epoch 4], Speed: 1607397.940 samples/sec,Loss_D=nan. Loss_G=nan.Loss_D_real=nan. Loss_D_fake=nan. train_student_ori_net_CrossEntropy=1.394. train_student_ori_net_SmoothL1=0.669.
+[Epoch 4] StudentNet Validation: 
+aeroplane=0.8093644235488568
+bicycle=0.8670432818753558
+bird=0.7845575014188083
+boat=0.6831820035037494
+bottle=0.5535814195322201
+bus=0.8677963396556969
+car=0.867487797631564
+cat=0.8783899812445971
+chair=0.6132226197453664
+cow=0.8319944127828106
+diningtable=0.734066413703939
+dog=0.8470424918751186
+horse=0.8784080603244577
+motorbike=0.8656761912432063
+person=0.7924965351720465
+pottedplant=0.5162951206704762
+sheep=0.8031937721250201
+sofa=0.7988501286483721
+train=0.8515082362153693
+tvmonitor=0.766253956028424
+mAP=0.7805205343472728
+best_map is 0.782009186748712

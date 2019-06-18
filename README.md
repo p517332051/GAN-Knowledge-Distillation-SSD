@@ -56,11 +56,11 @@ Table 2. 使用COCO train 2017作为训练集，COCO val 2017作为测试集。
 
 目前已经将该方法使用在faster rcnn上,效果如下：
 
-| Student net                                      | Teacher net            | Pascal Voc 2007 test     |
-| :----------------------------------------------- | :--------------------- | ------------------------ |
-| ResNet50+roipooling（with GAN-KD）               | -<br />ResNet101<br /> | 67.0<br />72.0(+5)<br /> |
-| ResNet50+roialign（with GAN-KD）                 | -<br />ResNet101<br /> | 71.7<br />74.0<br />     |
-| ResNet50（https://arxiv.org/pdf/1906.03609.pdf） | -<br />ResNet101<br /> | 69<br />72.0<br />       |
+| Student net                                      | Teacher net            | Pascal Voc 2007 test       |
+| :----------------------------------------------- | :--------------------- | -------------------------- |
+| ResNet50+roipooling（with GAN-KD）               | -<br />ResNet101<br /> | 67.0<br />72.0(+5)<br />   |
+| ResNet50+roialign（with GAN-KD）                 | -<br />ResNet101<br /> | 71.7<br />74.0(+2.3)<br /> |
+| ResNet50（https://arxiv.org/pdf/1906.03609.pdf） | -<br />ResNet101<br /> | 69<br />72.0<br />         |
 
 **Table 3.**  Teacher net为骨架网络为ResNet101的faster rcnn，且使用Pascal Voc 2007 trainval作为训练集，在Pascal Voc 2007 test测试集上mAP为74.8+。第一行和第二行使用GAN Knowledge Distillation方法，第三行为cvpr2019的 Distilling Object Detectors with Fine-grained Feature Imitation的方法效果。
 
